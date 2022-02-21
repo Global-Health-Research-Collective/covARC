@@ -1,6 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Diamond Princess,,,712,13.0,2020-08-21,04:27:41
-,Diamond Princess,,,712,13.0,2020-08-22,04:27:49
 ,Diamond Princess,,,712,13.0,2020-08-23,04:27:48
 ,Diamond Princess,,,712,13.0,2020-08-24,04:27:56
 ,Diamond Princess,,,712,13.0,2020-08-25,04:28:02
@@ -547,3 +545,5 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Diamond Princess,,,712,13.0,2022-02-17,04:20:56
 ,Diamond Princess,,,712,13.0,2022-02-18,04:21:04
 ,Diamond Princess,,,712,13.0,2022-02-19,04:21:11
+,Diamond Princess,,,712,13.0,2022-02-20,04:21:00
+,Diamond Princess,,,712,13.0,2022-02-21,04:21:05
