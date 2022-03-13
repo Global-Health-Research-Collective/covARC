@@ -1,0 +1,28 @@
+name: run_job
+
+on: push
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas
+    - name: Processing Data
+      run: |
+        python pre_proc.py
+        
+    - name: Commit Processed Data
+      run: |
+        git add .
+        git commit -m "updated files"
+        git push origin main
