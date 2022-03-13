@@ -25,9 +25,3 @@ jobs:
     - name: Processing Data
       run: |
         python pre_proc.py
-        
-    - name: Commit Processed Data
-      run: |
-        git add .
-        git commit -m "updated files"
-        git push origin main
