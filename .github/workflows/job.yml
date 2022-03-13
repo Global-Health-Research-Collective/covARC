@@ -21,12 +21,11 @@ jobs:
     - name: Downloading GISAID data
       run: |
         ls
-        cd COVID-19
-        git pull
-        cd ..
+        git clone https://github.com/CSSEGISandData/COVID-19
     - name: Processing Data
       run: |
         python pre_proc.py
+        rm -r COVID19
         
     - name: Commit Processed Data
       run: |
