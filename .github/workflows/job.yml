@@ -25,7 +25,6 @@ jobs:
     - name: Processing Data
       run: |
         python pre_proc.py
-        rm -r COVID19
         
     - name: Commit Processed Data
       run: |
