@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 import pandas as pd
 import gc
 
-os.system('cd COVID-19 && git pull')
-os.system('cd ..')
+#os.system('cd COVID-19 && git pull')
+#os.system('cd ..')
 
 new_date = date.today()
 old_date = (datetime.today() - timedelta(days=548)).date()
