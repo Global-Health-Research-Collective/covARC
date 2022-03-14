@@ -17,8 +17,8 @@ list_ = []
 
 for i in range(0,len(df_dates)):
         print(str(df_dates[i].date().strftime('%m-%d-%Y')))
-        df = pd.read_csv('COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/'+str(df_dates[i].date().strftime('%m-%d-%Y'))+'.csv')
-        #df = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'+str(df_dates[i].date().strftime('%m-%d-%Y'))+'.csv')        
+        #df = pd.read_csv('COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/'+str(df_dates[i].date().strftime('%m-%d-%Y'))+'.csv')
+        df = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'+str(df_dates[i].date().strftime('%m-%d-%Y'))+'.csv')        
         df = df.drop(['FIPS', 'Combined_Key','Recovered','Active'], axis = 1)
         df = df[df.columns[:-2]]
         #print(df.head())
@@ -52,3 +52,10 @@ for i in range(0,len(country_names)):
                 df_temp = df_temp.drop(['Admin2'],axis = 1)
                 df_temp.to_csv('filtered/'+str(country_names[i])+'.csv',index = False)
         gc.collect()
+
+import os.path
+
+if os.path.isdir('COVID-19'):
+    os.remove('COVID-19')
+else:
+    print ("File not exist")
