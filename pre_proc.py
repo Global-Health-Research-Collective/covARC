@@ -9,8 +9,8 @@ import gc
 #os.system('cd COVID-19 && git pull')
 #os.system('cd ..')
 
-new_date = date.today()
-old_date = (datetime.today() - timedelta(days=100)).date()
+new_date = date.today()-1
+old_date = (datetime.today() - timedelta(days=365)).date()
 
 df_dates = pd.date_range(old_date,new_date-timedelta(days=1),freq='d')
 list_ = []
