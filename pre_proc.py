@@ -9,9 +9,8 @@ import gc
 #os.system('cd COVID-19 && git pull')
 #os.system('cd ..')
 
-new_date = date.today()-1
-old_date = (datetime.today() - timedelta(days=365)).date()
-
+new_date = datetime.today() - timedelta(days=1)
+old_date = (datetime.today() - timedelta(days=500)).date()
 df_dates = pd.date_range(old_date,new_date-timedelta(days=1),freq='d')
 list_ = []
 
@@ -53,9 +52,9 @@ for i in range(0,len(country_names)):
                 df_temp.to_csv('filtered/'+str(country_names[i])+'.csv',index = False)
         gc.collect()
 
-import os.path
+#import os.path
 
-if os.path.isdir('COVID-19'):
-    os.remove('COVID-19')
-else:
-    print ("File not exist")
+#if os.path.isdir('COVID-19'):
+#    os.remove('COVID-19')
+#else:
+#    print ("File not exist")
