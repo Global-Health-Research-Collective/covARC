@@ -10,7 +10,7 @@ import gc
 #os.system('cd ..')
 
 new_date = date.today()
-old_date = (datetime.today() - timedelta(days=365)).date()
+old_date = (datetime.today() - timedelta(days=100)).date()
 
 df_dates = pd.date_range(old_date,new_date-timedelta(days=1),freq='d')
 list_ = []
