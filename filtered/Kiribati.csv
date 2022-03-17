@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Kiribati,-3.3704,-168.734,0,0,2020-11-02,05:25:04
 ,Kiribati,-3.3704,-168.734,0,0,2020-11-03,06:00:16
 ,Kiribati,-3.3704,-168.734,0,0,2020-11-04,05:25:09
 ,Kiribati,-3.3704,-168.734,0,0,2020-11-05,06:05:03
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Kiribati,-3.3704,-168.734,3022,13,2022-03-13,04:20:49
 ,Kiribati,-3.3704,-168.734,3027,13,2022-03-14,04:20:46
 ,Kiribati,-3.3704,-168.734,3033,13,2022-03-15,04:20:47
+,Kiribati,-3.3704,-168.734,3038,13,2022-03-16,04:20:50
