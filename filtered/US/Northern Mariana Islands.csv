@@ -1,5 +1,4 @@
 Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Northern Mariana Islands,US,15.0979,145.6739,96,2,2020-11-06,05:24:55
 ,Northern Mariana Islands,US,15.0979,145.6739,98,2,2020-11-07,05:24:52
 ,Northern Mariana Islands,US,15.0979,145.6739,98,2,2020-11-08,05:24:56
 ,Northern Mariana Islands,US,15.0979,145.6739,98,2,2020-11-09,05:25:45
@@ -498,3 +497,4 @@ Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Northern Mariana Islands,US,15.0979,145.6739,10575,31,2022-03-17,04:20:56
 ,Northern Mariana Islands,US,15.0979,145.6739,10634,31,2022-03-18,04:20:55
 ,Northern Mariana Islands,US,15.0979,145.6739,10689,31,2022-03-19,04:20:47
+,Northern Mariana Islands,US,15.0979,145.6739,10689,31,2022-03-20,04:20:45
