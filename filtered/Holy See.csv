@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Holy See,41.9029,12.4534,27,0,2020-11-14,05:25:37
 ,Holy See,41.9029,12.4534,27,0,2020-11-15,05:26:53
 ,Holy See,41.9029,12.4534,27,0,2020-11-16,05:25:57
 ,Holy See,41.9029,12.4534,27,0,2020-11-17,05:25:54
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Holy See,41.9029,12.4534,29,0,2022-03-25,04:20:46
 ,Holy See,41.9029,12.4534,29,0,2022-03-26,04:20:23
 ,Holy See,41.9029,12.4534,29,0,2022-03-27,04:20:47
+,Holy See,41.9029,12.4534,29,0,2022-03-28,04:20:33
