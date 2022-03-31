@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Azerbaijan,40.1431,47.5769,75688,967,2020-11-16,05:25:57
 ,Azerbaijan,40.1431,47.5769,77083,985,2020-11-17,05:25:54
 ,Azerbaijan,40.1431,47.5769,79158,1005,2020-11-18,05:40:31
 ,Azerbaijan,40.1431,47.5769,81397,1030,2020-11-19,05:25:23
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Azerbaijan,40.1431,47.5769,791695,9679,2022-03-27,04:20:47
 ,Azerbaijan,40.1431,47.5769,791750,9681,2022-03-28,04:20:33
 ,Azerbaijan,40.1431,47.5769,791766,9684,2022-03-29,04:20:46
+,Azerbaijan,40.1431,47.5769,791814,9687,2022-03-30,04:20:45
