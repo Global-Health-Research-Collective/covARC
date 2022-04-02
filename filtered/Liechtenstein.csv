@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Liechtenstein,47.14,9.55,1048,9,2020-11-18,05:40:31
 ,Liechtenstein,47.14,9.55,1083,9,2020-11-19,05:25:23
 ,Liechtenstein,47.14,9.55,1102,9,2020-11-20,05:26:28
 ,Liechtenstein,47.14,9.55,1121,9,2020-11-21,05:25:51
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Liechtenstein,47.14,9.55,16139,83,2022-03-29,04:20:46
 ,Liechtenstein,47.14,9.55,16176,84,2022-03-30,04:20:45
 ,Liechtenstein,47.14,9.55,16286,84,2022-03-31,04:20:56
+,Liechtenstein,47.14,9.55,16378,84,2022-04-01,04:20:28
