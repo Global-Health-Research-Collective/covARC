@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Cote d'Ivoire,7.54,-5.5471,21099,129,2020-11-21,05:25:51
 ,Cote d'Ivoire,7.54,-5.5471,21126,129,2020-11-22,05:25:45
 ,Cote d'Ivoire,7.54,-5.5471,21138,131,2020-11-23,05:25:26
 ,Cote d'Ivoire,7.54,-5.5471,21148,131,2020-11-24,05:27:31
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Cote d'Ivoire,7.54,-5.5471,81741,796,2022-04-01,04:20:28
 ,Cote d'Ivoire,7.54,-5.5471,81741,796,2022-04-02,04:20:47
 ,Cote d'Ivoire,7.54,-5.5471,81761,796,2022-04-03,04:20:48
+,Cote d'Ivoire,7.54,-5.5471,81761,796,2022-04-04,04:20:51
