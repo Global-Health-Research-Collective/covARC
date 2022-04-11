@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Dominican Republic,18.7357,-70.1627,140922,2317,2020-11-27,05:26:53
 ,Dominican Republic,18.7357,-70.1627,141777,2324,2020-11-28,05:25:50
 ,Dominican Republic,18.7357,-70.1627,142653,2328,2020-11-29,05:25:55
 ,Dominican Republic,18.7357,-70.1627,143473,2330,2020-11-30,05:26:13
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Dominican Republic,18.7357,-70.1627,578319,4375,2022-04-07,04:20:53
 ,Dominican Republic,18.7357,-70.1627,578416,4375,2022-04-08,04:20:48
 ,Dominican Republic,18.7357,-70.1627,578416,4375,2022-04-09,04:20:42
+,Dominican Republic,18.7357,-70.1627,578416,4375,2022-04-10,04:20:52
