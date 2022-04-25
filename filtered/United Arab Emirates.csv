@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,United Arab Emirates,23.424076,53.847818,181405,602,2020-12-11,05:26:59
 ,United Arab Emirates,23.424076,53.847818,182601,607,2020-12-12,05:26:19
 ,United Arab Emirates,23.424076,53.847818,183755,609,2020-12-13,05:27:20
 ,United Arab Emirates,23.424076,53.847818,184949,617,2020-12-14,05:26:27
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,United Arab Emirates,23.424076,53.847818,896141,2302,2022-04-21,04:20:46
 ,United Arab Emirates,23.424076,53.847818,896372,2302,2022-04-22,04:20:45
 ,United Arab Emirates,23.424076,53.847818,896631,2302,2022-04-23,04:20:50
+,United Arab Emirates,23.424076,53.847818,896892,2302,2022-04-24,04:20:56
