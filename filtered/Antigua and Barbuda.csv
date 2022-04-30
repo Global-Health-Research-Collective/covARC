@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Antigua and Barbuda,17.0608,-61.7964,148,5,2020-12-16,05:28:04
 ,Antigua and Barbuda,17.0608,-61.7964,151,5,2020-12-17,05:28:12
 ,Antigua and Barbuda,17.0608,-61.7964,151,5,2020-12-18,05:28:18
 ,Antigua and Barbuda,17.0608,-61.7964,152,5,2020-12-19,05:27:52
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Antigua and Barbuda,17.0608,-61.7964,7571,135,2022-04-26,04:20:51
 ,Antigua and Barbuda,17.0608,-61.7964,7571,135,2022-04-27,04:20:52
 ,Antigua and Barbuda,17.0608,-61.7964,7571,135,2022-04-28,04:20:47
+,Antigua and Barbuda,17.0608,-61.7964,7604,136,2022-04-29,04:20:59
