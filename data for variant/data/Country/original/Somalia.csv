@@ -1,5 +1,0 @@
-date,total_count,lineage_count,total_count_rolling,lineage_count_rolling,proportion,proportion_ci_lower,proportion_ci_upper,query_key,lineage,total_count_rolling_14,lineage_count_rolling_14,proportion_rolling_14
-2021-02-28,10,6,10,6,0.6,0.303679485600488,0.846932898873824,B.1.1.7 OR Q.1 OR Q.2 OR Q.3 OR Q.4 OR Q.5 OR Q.6 OR Q.7 OR Q.8,Alpha,,,
-2021-03-05,1,1,5.5,3.5,0.636363636363636,0.286423009254197,0.923229859965127,B.1.1.7 OR Q.1 OR Q.2 OR Q.3 OR Q.4 OR Q.5 OR Q.6 OR Q.7 OR Q.8,Alpha,,,
-2021-02-28,10,4,10,4,0.4,0.153067101126176,0.696320514399512,B.1.351 OR B.1.351.1 OR B.1.351.2 OR B.1.351.3 OR B.1.351.4 OR B.1.351.5,Beta,,,
-2021-03-05,1,0,5.5,2,0.363636363636364,0.0767701400348735,0.713576990745803,B.1.351 OR B.1.351.1 OR B.1.351.2 OR B.1.351.3 OR B.1.351.4 OR B.1.351.5,Beta,,,
