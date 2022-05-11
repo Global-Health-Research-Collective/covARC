@@ -1,22 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-Anguilla,United Kingdom,18.2206,-63.0686,12,0,2020-12-27,05:22:55
-Bermuda,United Kingdom,32.3078,-64.7505,581,10,2020-12-27,05:22:55
-British Virgin Islands,United Kingdom,18.4207,-64.64,86,1,2020-12-27,05:22:55
-Cayman Islands,United Kingdom,19.3133,-81.2546,318,2,2020-12-27,05:22:55
-Channel Islands,United Kingdom,49.3723,-2.3644,0,0,2020-12-27,05:22:55
-England,United Kingdom,52.3555,-1.1743,1937598,61451,2020-12-27,05:22:55
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,29,0,2020-12-27,05:22:55
-Gibraltar,United Kingdom,36.1408,-5.3536,1593,6,2020-12-27,05:22:55
-Isle of Man,United Kingdom,54.2361,-4.5481,374,25,2020-12-27,05:22:55
-Montserrat,United Kingdom,16.742498,-62.187366,13,1,2020-12-27,05:22:55
-Northern Ireland,United Kingdom,54.7877,-6.4923,63723,1240,2020-12-27,05:22:55
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,4,0,2020-12-27,05:22:55
-Scotland,United Kingdom,56.4907,-4.2026,119184,4416,2020-12-27,05:22:55
-Turks and Caicos Islands,United Kingdom,21.69400000000001,-71.7979,844,6,2020-12-27,05:22:55
-Unknown,United Kingdom,,,0,0,2020-12-27,05:22:55
-Wales,United Kingdom,52.1307,-3.7837,135500,3298,2020-12-27,05:22:55
-Jersey,United Kingdom,49.2138,-2.1358,2616,41,2020-12-27,05:22:55
-Guernsey,United Kingdom,49.448196,-2.58949,297,16,2020-12-27,05:22:55
 Anguilla,United Kingdom,18.2206,-63.0686,12,0,2020-12-28,05:22:06
 Bermuda,United Kingdom,32.3078,-64.7505,581,10,2020-12-28,05:22:06
 British Virgin Islands,United Kingdom,18.4207,-64.64,86,1,2020-12-28,05:22:06
@@ -8981,3 +8963,21 @@ Scotland,United Kingdom,56.4907,-4.2026,1931816,12157,2022-05-09,04:20:54
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,5995,36,2022-05-09,04:20:54
 Unknown,United Kingdom,,,0,0,2022-05-09,04:20:54
 Wales,United Kingdom,52.1307,-3.7837,873102,7405,2022-05-09,04:20:54
+Anguilla,United Kingdom,18.2206,-63.0686,2788,9,2022-05-10,04:20:50
+Bermuda,United Kingdom,32.3078,-64.7505,13832,134,2022-05-10,04:20:50
+British Virgin Islands,United Kingdom,18.4207,-64.64,6467,62,2022-05-10,04:20:50
+Cayman Islands,United Kingdom,19.3133,-81.2546,22828,27,2022-05-10,04:20:50
+Channel Islands,United Kingdom,49.3723,-2.3644,0,0,2022-05-10,04:20:50
+England,United Kingdom,52.3555,-1.1743,18621424,153404,2022-05-10,04:20:50
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,392,0,2022-05-10,04:20:50
+Gibraltar,United Kingdom,36.1408,-5.3536,17996,102,2022-05-10,04:20:50
+Guernsey,United Kingdom,49.448196,-2.58949,24832,45,2022-05-10,04:20:50
+Isle of Man,United Kingdom,54.2361,-4.5481,32424,104,2022-05-10,04:20:50
+Jersey,United Kingdom,49.2138,-2.1358,50033,127,2022-05-10,04:20:50
+Montserrat,United Kingdom,16.742498,-62.187366,493,2,2022-05-10,04:20:50
+Northern Ireland,United Kingdom,54.7877,-6.4923,710173,3429,2022-05-10,04:20:50
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,4,0,2022-05-10,04:20:50
+Scotland,United Kingdom,56.4907,-4.2026,1935488,12179,2022-05-10,04:20:50
+Turks and Caicos Islands,United Kingdom,21.694,-71.7979,5995,36,2022-05-10,04:20:50
+Unknown,United Kingdom,,,0,0,2022-05-10,04:20:50
+Wales,United Kingdom,52.1307,-3.7837,873202,7412,2022-05-10,04:20:50
