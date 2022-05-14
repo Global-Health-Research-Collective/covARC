@@ -618,11 +618,6 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-08-04,1,1,b.1.617.2,1,0.454545454545455,Barbados
 2021-07-03,4,1,b.1.621.1,0.25,0.304347826086957,Barbados
 2021-11-30,2,1,b.40,0.5,0.777777777777778,Barbados
-2021-12-13,1,1,ba.1,1,1,Barbados
-2021-12-14,2,2,ba.1,1,1,Barbados
-2021-12-15,0,0,ba.1,0,0.5,Barbados
-2021-12-16,3,3,ba.1,1,1,Barbados
-2021-12-15,1,1,ba.1.17,1,0.5,Barbados
 2021-07-31,1,1,other,1,0.7,Barbados
 2021-08-01,0,0,other,0,0.411764705882353,Barbados
 2021-08-02,0,0,other,0,0.205882352941177,Barbados
@@ -753,6 +748,15 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-12-05,1,1,other,1,1,Barbados
 2021-12-06,0,0,other,0,1,Barbados
 2021-12-07,1,1,other,1,1,Barbados
+2021-12-08,0,0,other,0,1,Barbados
+2021-12-09,0,0,other,0,1,Barbados
+2021-12-10,0,0,other,0,1,Barbados
+2021-12-11,0,0,other,0,1,Barbados
+2021-12-12,0,0,other,0,1,Barbados
+2021-12-13,1,1,other,1,1,Barbados
+2021-12-14,2,2,other,1,1,Barbados
+2021-12-15,1,1,other,1,1,Barbados
+2021-12-16,3,3,other,1,1,Barbados
 2021-05-22,1,1,p.1,1,0.875,Barbados
 2021-05-23,0,0,p.1,0,0.777777777777778,Barbados
 2021-05-24,0,0,p.1,0,0.225806451612903,Barbados
