@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Winter Olympics 2022,39.9042,116.4074,0,0,2020-12-31,05:22:49
 ,Winter Olympics 2022,39.9042,116.4074,0,0,2021-01-01,05:23:07
 ,Winter Olympics 2022,39.9042,116.4074,0,0,2021-01-02,05:22:33
 ,Winter Olympics 2022,39.9042,116.4074,0,0,2021-01-03,05:22:52
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Winter Olympics 2022,39.9042,116.4074,535,0,2022-05-11,04:20:48
 ,Winter Olympics 2022,39.9042,116.4074,535,0,2022-05-12,04:20:54
 ,Winter Olympics 2022,39.9042,116.4074,535,0,2022-05-13,04:20:51
+,Winter Olympics 2022,39.9042,116.4074,535,0,2022-05-14,04:20:48
