@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Tajikistan,38.861,71.2761,13676,91,2021-01-05,05:21:49
 ,Tajikistan,38.861,71.2761,13686,91,2021-01-06,05:22:16
 ,Tajikistan,38.861,71.2761,13695,91,2021-01-07,05:22:03
 ,Tajikistan,38.861,71.2761,13701,91,2021-01-08,05:22:42
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Tajikistan,38.861,71.2761,17786,125,2022-05-16,04:20:47
 ,Tajikistan,38.861,71.2761,17786,125,2022-05-17,04:20:59
 ,Tajikistan,38.861,71.2761,17786,125,2022-05-18,04:20:50
+,Tajikistan,38.861,71.2761,17786,125,2022-05-19,04:20:54
