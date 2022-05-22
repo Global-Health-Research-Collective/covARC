@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Saint Lucia,13.9094,-60.9789,382,5,2021-01-07,05:22:03
 ,Saint Lucia,13.9094,-60.9789,383,5,2021-01-08,05:22:42
 ,Saint Lucia,13.9094,-60.9789,395,5,2021-01-09,05:22:18
 ,Saint Lucia,13.9094,-60.9789,438,5,2021-01-10,05:22:12
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Saint Lucia,13.9094,-60.9789,24514,368,2022-05-18,04:20:50
 ,Saint Lucia,13.9094,-60.9789,24655,368,2022-05-19,04:20:54
 ,Saint Lucia,13.9094,-60.9789,24780,368,2022-05-20,04:20:57
+,Saint Lucia,13.9094,-60.9789,24873,368,2022-05-21,04:20:58
