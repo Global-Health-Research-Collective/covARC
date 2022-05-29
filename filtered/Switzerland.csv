@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Switzerland,46.8182,8.2275,490358,8709,2021-01-14,05:22:32
 ,Switzerland,46.8182,8.2275,492832,8758,2021-01-15,05:22:24
 ,Switzerland,46.8182,8.2275,495228,8831,2021-01-16,05:22:40
 ,Switzerland,46.8182,8.2275,495228,8871,2021-01-17,05:22:17
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Switzerland,46.8182,8.2275,3668054,13791,2022-05-25,04:20:56
 ,Switzerland,46.8182,8.2275,3668054,13794,2022-05-26,04:20:50
 ,Switzerland,46.8182,8.2275,3668054,13794,2022-05-27,04:20:56
+,Switzerland,46.8182,8.2275,3668054,13794,2022-05-28,04:21:07
