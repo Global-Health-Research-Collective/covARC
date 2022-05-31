@@ -1,5 +1,4 @@
 Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Virgin Islands,US,18.3358,-64.8963,2252,24,2021-01-16,05:22:40
 ,Virgin Islands,US,18.3358,-64.8963,2252,24,2021-01-17,05:22:17
 ,Virgin Islands,US,18.3358,-64.8963,2260,24,2021-01-18,05:22:34
 ,Virgin Islands,US,18.3358,-64.8963,2260,24,2021-01-19,05:22:15
@@ -498,3 +497,4 @@ Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Virgin Islands,US,18.3358,-64.8963,19442,113,2022-05-27,04:20:56
 ,Virgin Islands,US,18.3358,-64.8963,19442,113,2022-05-28,04:21:07
 ,Virgin Islands,US,18.3358,-64.8963,19532,113,2022-05-29,04:20:53
+,Virgin Islands,US,18.3358,-64.8963,19532,113,2022-05-30,04:20:50
