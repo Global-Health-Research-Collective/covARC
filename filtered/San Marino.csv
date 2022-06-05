@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,San Marino,43.9424,12.4578,2787,65,2021-01-21,05:22:01
 ,San Marino,43.9424,12.4578,2815,65,2021-01-22,05:22:10
 ,San Marino,43.9424,12.4578,2833,65,2021-01-23,05:22:03
 ,San Marino,43.9424,12.4578,2861,65,2021-01-24,05:22:35
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,San Marino,43.9424,12.4578,17124,115,2022-06-01,04:20:55
 ,San Marino,43.9424,12.4578,17124,115,2022-06-02,05:20:39
 ,San Marino,43.9424,12.4578,17124,115,2022-06-03,04:20:58
+,San Marino,43.9424,12.4578,17124,115,2022-06-04,04:20:58
