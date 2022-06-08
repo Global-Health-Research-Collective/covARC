@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Solomon Islands,-9.6457,160.1562,17,0,2021-01-24,05:22:35
 ,Solomon Islands,-9.6457,160.1562,17,0,2021-01-25,05:22:16
 ,Solomon Islands,-9.6457,160.1562,17,0,2021-01-26,05:22:02
 ,Solomon Islands,-9.6457,160.1562,17,0,2021-01-27,05:23:41
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Solomon Islands,-9.6457,160.1562,21237,149,2022-06-04,04:20:58
 ,Solomon Islands,-9.6457,160.1562,21237,149,2022-06-05,04:20:55
 ,Solomon Islands,-9.6457,160.1562,21237,149,2022-06-06,04:20:57
+,Solomon Islands,-9.6457,160.1562,21237,149,2022-06-07,04:21:08
