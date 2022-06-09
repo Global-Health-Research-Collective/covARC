@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Burkina Faso,12.2383,-1.5616,10038,112,2021-01-25,05:22:16
 ,Burkina Faso,12.2383,-1.5616,10103,117,2021-01-26,05:22:02
 ,Burkina Faso,12.2383,-1.5616,10157,118,2021-01-27,05:23:41
 ,Burkina Faso,12.2383,-1.5616,10217,120,2021-01-28,05:22:24
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Burkina Faso,12.2383,-1.5616,20899,384,2022-06-05,04:20:55
 ,Burkina Faso,12.2383,-1.5616,20899,384,2022-06-06,04:20:57
 ,Burkina Faso,12.2383,-1.5616,20899,384,2022-06-07,04:21:08
+,Burkina Faso,12.2383,-1.5616,20899,384,2022-06-08,04:20:55
