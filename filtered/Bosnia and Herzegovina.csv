@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Bosnia and Herzegovina,43.9159,17.6791,122828,4745,2021-02-04,05:22:26
 ,Bosnia and Herzegovina,43.9159,17.6791,122828,4745,2021-02-05,05:22:38
 ,Bosnia and Herzegovina,43.9159,17.6791,123434,4775,2021-02-06,05:23:55
 ,Bosnia and Herzegovina,43.9159,17.6791,123434,4775,2021-02-07,05:23:00
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Bosnia and Herzegovina,43.9159,17.6791,378112,15795,2022-06-15,04:20:54
 ,Bosnia and Herzegovina,43.9159,17.6791,378168,15796,2022-06-16,04:20:55
 ,Bosnia and Herzegovina,43.9159,17.6791,378193,15796,2022-06-17,04:20:56
+,Bosnia and Herzegovina,43.9159,17.6791,378209,15796,2022-06-18,04:21:10
