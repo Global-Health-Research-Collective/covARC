@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,El Salvador,13.7942,-88.8965,56025,1662,2021-02-06,05:23:55
 ,El Salvador,13.7942,-88.8965,56237,1673,2021-02-07,05:23:00
 ,El Salvador,13.7942,-88.8965,56442,1681,2021-02-08,05:22:39
 ,El Salvador,13.7942,-88.8965,56653,1692,2021-02-09,05:23:30
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,El Salvador,13.7942,-88.8965,164134,4135,2022-06-17,04:20:56
 ,El Salvador,13.7942,-88.8965,164134,4136,2022-06-18,04:21:10
 ,El Salvador,13.7942,-88.8965,164134,4137,2022-06-19,04:20:51
+,El Salvador,13.7942,-88.8965,164134,4137,2022-06-20,04:21:01
