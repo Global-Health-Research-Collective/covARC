@@ -13123,6 +13123,12 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,State
 2022-06-02,3,2,ba.2.12.1,0.666666666666667,0.851851851851852,New Hampshire
 2022-06-03,1,1,ba.2.12.1,1,1,New Hampshire
 2022-06-04,3,3,ba.2.12.1,1,1,New Hampshire
+2022-06-05,0,0,ba.2.12.1,0,1,New Hampshire
+2022-06-06,0,0,ba.2.12.1,0,1,New Hampshire
+2022-06-07,1,1,ba.2.12.1,1,1,New Hampshire
+2022-06-08,0,0,ba.2.12.1,0,1,New Hampshire
+2022-06-09,0,0,ba.2.12.1,0,1,New Hampshire
+2022-06-10,1,1,ba.2.12.1,1,1,New Hampshire
 2022-05-08,12,1,ba.2.13,0.0833333333333333,0.137254901960784,New Hampshire
 2022-05-09,0,0,ba.2.13,0,0.0608695652173913,New Hampshire
 2022-05-10,0,0,ba.2.13,0,0.0463576158940397,New Hampshire
