@@ -153,9 +153,9 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2022-01-04,0,0,ay.125,0,0,Dominica
 2022-01-05,0,0,ay.125,0,0,Dominica
 2022-01-06,1,1,ay.125,1,1,Dominica
-2021-08-07,9,2,ay.13,0.222222222222222,0.307692307692308,Dominica
 2021-08-06,1,1,ay.40,1,1,Dominica
 2021-08-07,9,6,ay.40,0.666666666666667,0.538461538461538,Dominica
+2021-08-07,9,2,ay.75,0.222222222222222,0.307692307692308,Dominica
 2021-01-29,1,1,b.1.1.7,1,1,Dominica
 2021-01-30,0,0,b.1.1.7,0,1,Dominica
 2021-01-31,0,0,b.1.1.7,0,1,Dominica

@@ -20,7 +20,6 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-01-26,2,1,a.23.1,0.5,0.363636363636364,South Sudan
 2021-01-27,2,1,a.23.1,0.5,0.348837209302326,South Sudan
 2020-08-05,1,1,a.25,1,1,South Sudan
-2021-09-02,2,2,ay.110,1,0.875,South Sudan
 2021-11-16,1,1,ay.119,1,1,South Sudan
 2021-11-17,1,1,ay.119,1,1,South Sudan
 2021-08-10,1,1,ay.122,1,1,South Sudan
@@ -131,6 +130,7 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-08-23,0,0,ay.16,0,0,South Sudan
 2021-08-24,0,0,ay.16,0,0,South Sudan
 2021-08-25,2,1,ay.16,0.5,0.5,South Sudan
+2021-09-02,2,2,ay.36.1,1,0.875,South Sudan
 2021-06-07,2,2,ay.46,1,1,South Sudan
 2021-06-08,0,0,ay.46,0,1,South Sudan
 2021-06-09,0,0,ay.46,0,1,South Sudan
