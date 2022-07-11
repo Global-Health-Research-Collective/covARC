@@ -1,5 +1,4 @@
 Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Recovered,US,,,0,0,2021-02-26,05:22:40
 ,Recovered,US,,,0,0,2021-02-27,05:22:28
 ,Recovered,US,,,0,0,2021-02-28,05:22:20
 ,Recovered,US,,,0,0,2021-03-01,05:23:01
@@ -498,3 +497,4 @@ Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Recovered,US,,,0,0,2022-07-07,04:20:55
 ,Recovered,US,,,0,0,2022-07-08,04:20:56
 ,Recovered,US,,,0,0,2022-07-09,04:20:59
+,Recovered,US,,,0,0,2022-07-10,04:20:54
