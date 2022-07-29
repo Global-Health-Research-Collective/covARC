@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Marshall Islands,7.1315,171.1845,4,0,2021-03-16,05:25:13
 ,Marshall Islands,7.1315,171.1845,4,0,2021-03-17,05:25:07
 ,Marshall Islands,7.1315,171.1845,4,0,2021-03-18,05:26:22
 ,Marshall Islands,7.1315,171.1845,4,0,2021-03-19,05:26:09
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Marshall Islands,7.1315,171.1845,59,0,2022-07-25,04:20:51
 ,Marshall Islands,7.1315,171.1845,59,0,2022-07-26,04:20:58
 ,Marshall Islands,7.1315,171.1845,59,0,2022-07-27,04:21:04
+,Marshall Islands,7.1315,171.1845,59,0,2022-07-28,04:20:56
