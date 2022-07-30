@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Micronesia,7.4256,150.5508,1,0,2021-03-17,05:25:07
 ,Micronesia,7.4256,150.5508,1,0,2021-03-18,05:26:22
 ,Micronesia,7.4256,150.5508,1,0,2021-03-19,05:26:09
 ,Micronesia,7.4256,150.5508,1,0,2021-03-20,05:25:46
@@ -497,4 +496,5 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Micronesia,7.4256,150.5508,1012,0,2022-07-25,04:20:51
 ,Micronesia,7.4256,150.5508,1261,1,2022-07-26,04:20:58
 ,Micronesia,7.4256,150.5508,2072,1,2022-07-27,04:21:04
-,Micronesia,7.4256,150.5508,2072,1,2022-07-28,04:20:56
+,Micronesia,7.4256,150.5508,2769,4,2022-07-28,04:20:56
+,Micronesia,7.4256,150.5508,3526,4,2022-07-29,04:20:45
