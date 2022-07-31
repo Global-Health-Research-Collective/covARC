@@ -1,18 +1,4 @@
 Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Northern Mariana Islands,US,15.0979,145.6739,144,2,2021-03-05,05:26:29
-,Northern Mariana Islands,US,15.0979,145.6739,144,2,2021-03-06,04:23:41
-,Northern Mariana Islands,US,15.0979,145.6739,144,2,2021-03-07,05:21:54
-,Northern Mariana Islands,US,15.0979,145.6739,145,2,2021-03-08,05:24:48
-,Northern Mariana Islands,US,15.0979,145.6739,145,2,2021-03-09,05:28:19
-,Northern Mariana Islands,US,15.0979,145.6739,146,2,2021-03-10,05:24:35
-,Northern Mariana Islands,US,15.0979,145.6739,146,2,2021-03-11,05:25:48
-,Northern Mariana Islands,US,15.0979,145.6739,146,2,2021-03-12,05:26:50
-,Northern Mariana Islands,US,15.0979,145.6739,146,2,2021-03-13,05:25:15
-,Northern Mariana Islands,US,15.0979,145.6739,147,2,2021-03-14,05:25:37
-,Northern Mariana Islands,US,15.0979,145.6739,150,2,2021-03-15,05:25:51
-,Northern Mariana Islands,US,15.0979,145.6739,154,2,2021-03-16,05:25:13
-,Northern Mariana Islands,US,15.0979,145.6739,156,2,2021-03-17,05:25:07
-,Northern Mariana Islands,US,15.0979,145.6739,156,2,2021-03-18,05:26:22
 ,Northern Mariana Islands,US,15.0979,145.6739,157,2,2021-03-19,05:26:09
 ,Northern Mariana Islands,US,15.0979,145.6739,157,2,2021-03-20,05:25:46
 ,Northern Mariana Islands,US,15.0979,145.6739,157,2,2021-03-21,05:25:44
@@ -498,3 +484,17 @@ Admin2,Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Northern Mariana Islands,US,15.0979,145.6739,12193,35,2022-07-14,04:20:57
 ,Northern Mariana Islands,US,15.0979,145.6739,12193,35,2022-07-15,04:20:53
 ,Northern Mariana Islands,US,15.0979,145.6739,12193,35,2022-07-16,04:21:05
+,Northern Mariana Islands,US,15.0979,145.6739,12193,35,2022-07-17,04:21:15
+,Northern Mariana Islands,US,15.0979,145.6739,12193,35,2022-07-18,04:20:59
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-19,04:20:58
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-20,04:20:59
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-21,04:21:10
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-22,04:21:15
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-23,04:20:53
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-24,04:20:47
+,Northern Mariana Islands,US,15.0979,145.6739,12398,35,2022-07-25,04:20:51
+,Northern Mariana Islands,US,15.0979,145.6739,12573,37,2022-07-26,04:20:58
+,Northern Mariana Islands,US,15.0979,145.6739,12573,37,2022-07-27,04:21:04
+,Northern Mariana Islands,US,15.0979,145.6739,12573,37,2022-07-28,04:20:56
+,Northern Mariana Islands,US,15.0979,145.6739,12573,37,2022-07-29,04:20:45
+,Northern Mariana Islands,US,15.0979,145.6739,12573,37,2022-07-30,04:20:42
