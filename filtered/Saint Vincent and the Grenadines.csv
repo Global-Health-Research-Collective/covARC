@@ -1,8 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Saint Vincent and the Grenadines,12.9843,-61.2872,1684,9,2021-03-19,05:26:09
-,Saint Vincent and the Grenadines,12.9843,-61.2872,1692,9,2021-03-20,05:25:46
-,Saint Vincent and the Grenadines,12.9843,-61.2872,1696,9,2021-03-21,05:25:44
-,Saint Vincent and the Grenadines,12.9843,-61.2872,1696,9,2021-03-22,05:25:43
 ,Saint Vincent and the Grenadines,12.9843,-61.2872,1696,9,2021-03-23,05:26:18
 ,Saint Vincent and the Grenadines,12.9843,-61.2872,1696,9,2021-03-24,05:25:40
 ,Saint Vincent and the Grenadines,12.9843,-61.2872,1703,10,2021-03-25,05:27:00
@@ -498,3 +494,7 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Saint Vincent and the Grenadines,12.9843,-61.2872,9330,115,2022-07-28,04:20:56
 ,Saint Vincent and the Grenadines,12.9843,-61.2872,9330,115,2022-07-29,04:20:45
 ,Saint Vincent and the Grenadines,12.9843,-61.2872,9354,115,2022-07-30,04:20:42
+,Saint Vincent and the Grenadines,12.9843,-61.2872,9354,115,2022-07-31,04:21:02
+,Saint Vincent and the Grenadines,12.9843,-61.2872,9354,115,2022-08-01,04:21:03
+,Saint Vincent and the Grenadines,12.9843,-61.2872,9354,115,2022-08-02,04:20:53
+,Saint Vincent and the Grenadines,12.9843,-61.2872,9370,115,2022-08-03,04:20:59

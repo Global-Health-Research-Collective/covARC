@@ -1,8 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Sao Tome and Principe,0.1864,6.6131,2114,34,2021-03-19,05:26:09
-,Sao Tome and Principe,0.1864,6.6131,2123,34,2021-03-20,05:25:46
-,Sao Tome and Principe,0.1864,6.6131,2142,34,2021-03-21,05:25:44
-,Sao Tome and Principe,0.1864,6.6131,2145,34,2021-03-22,05:25:43
 ,Sao Tome and Principe,0.1864,6.6131,2157,34,2021-03-23,05:26:18
 ,Sao Tome and Principe,0.1864,6.6131,2159,34,2021-03-24,05:25:40
 ,Sao Tome and Principe,0.1864,6.6131,2174,34,2021-03-25,05:27:00
@@ -498,3 +494,7 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Sao Tome and Principe,0.1864,6.6131,6100,74,2022-07-28,04:20:56
 ,Sao Tome and Principe,0.1864,6.6131,6100,74,2022-07-29,04:20:45
 ,Sao Tome and Principe,0.1864,6.6131,6100,74,2022-07-30,04:20:42
+,Sao Tome and Principe,0.1864,6.6131,6100,74,2022-07-31,04:21:02
+,Sao Tome and Principe,0.1864,6.6131,6100,74,2022-08-01,04:21:03
+,Sao Tome and Principe,0.1864,6.6131,6115,75,2022-08-02,04:20:53
+,Sao Tome and Principe,0.1864,6.6131,6115,75,2022-08-03,04:20:59
