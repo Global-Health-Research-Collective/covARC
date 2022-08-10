@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Guinea-Bissau,11.8037,-15.1804,3630,61,2021-03-28,05:28:10
 ,Guinea-Bissau,11.8037,-15.1804,3634,61,2021-03-29,04:28:35
 ,Guinea-Bissau,11.8037,-15.1804,3634,61,2021-03-30,04:26:23
 ,Guinea-Bissau,11.8037,-15.1804,3647,61,2021-03-31,04:26:25
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Guinea-Bissau,11.8037,-15.1804,8440,174,2022-08-06,04:20:56
 ,Guinea-Bissau,11.8037,-15.1804,8440,174,2022-08-07,04:20:54
 ,Guinea-Bissau,11.8037,-15.1804,8440,174,2022-08-08,04:21:08
+,Guinea-Bissau,11.8037,-15.1804,8452,174,2022-08-09,04:20:34
