@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Luxembourg,49.8153,6.1296,63467,763,2021-04-11,04:20:56
 ,Luxembourg,49.8153,6.1296,63467,763,2021-04-12,04:21:00
 ,Luxembourg,49.8153,6.1296,63880,772,2021-04-13,04:20:37
 ,Luxembourg,49.8153,6.1296,64062,777,2021-04-14,04:20:41
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Luxembourg,49.8153,6.1296,285552,1121,2022-08-20,04:21:01
 ,Luxembourg,49.8153,6.1296,285552,1121,2022-08-21,04:20:44
 ,Luxembourg,49.8153,6.1296,285552,1121,2022-08-22,04:20:38
+,Luxembourg,49.8153,6.1296,285689,1121,2022-08-23,04:20:56
