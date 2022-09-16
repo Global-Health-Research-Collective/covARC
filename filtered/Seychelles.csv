@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Seychelles,-4.6796,55.492,6270,28,2021-05-04,04:20:34
 ,Seychelles,-4.6796,55.492,6352,28,2021-05-05,04:20:43
 ,Seychelles,-4.6796,55.492,6708,28,2021-05-06,04:20:38
 ,Seychelles,-4.6796,55.492,7192,28,2021-05-07,04:20:40
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Seychelles,-4.6796,55.492,46175,169,2022-09-12,04:20:58
 ,Seychelles,-4.6796,55.492,46358,169,2022-09-13,04:20:57
 ,Seychelles,-4.6796,55.492,46358,169,2022-09-14,04:20:44
+,Seychelles,-4.6796,55.492,46358,169,2022-09-15,04:21:02
