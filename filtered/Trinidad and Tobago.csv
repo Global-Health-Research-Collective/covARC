@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Trinidad and Tobago,10.6918,-61.2225,12720,196,2021-05-08,04:21:04
 ,Trinidad and Tobago,10.6918,-61.2225,13122,203,2021-05-09,04:20:35
 ,Trinidad and Tobago,10.6918,-61.2225,13355,211,2021-05-10,04:20:38
 ,Trinidad and Tobago,10.6918,-61.2225,13454,215,2021-05-11,04:20:41
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Trinidad and Tobago,10.6918,-61.2225,181903,4183,2022-09-16,04:21:19
 ,Trinidad and Tobago,10.6918,-61.2225,182043,4184,2022-09-17,04:20:19
 ,Trinidad and Tobago,10.6918,-61.2225,182144,4189,2022-09-18,04:22:50
+,Trinidad and Tobago,10.6918,-61.2225,182247,4191,2022-09-19,04:21:49
