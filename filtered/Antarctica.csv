@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Antarctica,-71.9499,23.347,0,0,2021-05-14,04:20:41
 ,Antarctica,-71.9499,23.347,0,0,2021-05-15,04:20:58
 ,Antarctica,-71.9499,23.347,0,0,2021-05-16,04:20:49
 ,Antarctica,-71.9499,23.347,0,0,2021-05-17,04:20:34
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Antarctica,-71.9499,23.347,11,0,2022-09-22,04:22:56
 ,Antarctica,-71.9499,23.347,11,0,2022-09-23,04:23:13
 ,Antarctica,-71.9499,23.347,11,0,2022-09-24,04:21:40
+,Antarctica,-71.9499,23.347,11,0,2022-09-25,04:23:31
