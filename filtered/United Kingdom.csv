@@ -1,23 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-Anguilla,United Kingdom,18.2206,-63.0686,109,0,2021-05-19,04:20:42
-Bermuda,United Kingdom,32.3078,-64.7505,2479,32,2021-05-19,04:20:42
-British Virgin Islands,United Kingdom,18.4207,-64.64,248,1,2021-05-19,04:20:42
-Cayman Islands,United Kingdom,19.3133,-81.2546,565,2,2021-05-19,04:20:42
-Channel Islands,United Kingdom,49.3723,-2.3644,0,0,2021-05-19,04:20:42
-England,United Kingdom,52.3555,-1.1743,3886364,132841,2021-05-19,04:20:42
-Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,63,0,2021-05-19,04:20:42
-Gibraltar,United Kingdom,36.1408,-5.3536,4286,94,2021-05-19,04:20:42
-Isle of Man,United Kingdom,54.2361,-4.5481,1591,29,2021-05-19,04:20:42
-Montserrat,United Kingdom,16.742498,-62.187366,20,1,2021-05-19,04:20:42
-Northern Ireland,United Kingdom,54.7877,-6.4923,121714,2976,2021-05-19,04:20:42
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,4,0,2021-05-19,04:20:42
-Scotland,United Kingdom,56.4907,-4.2026,230042,10132,2021-05-19,04:20:42
-Turks and Caicos Islands,United Kingdom,21.69400000000001,-71.7979,2404,17,2021-05-19,04:20:42
-Unknown,United Kingdom,,,0,184,2021-05-19,04:20:42
-Wales,United Kingdom,52.1307,-3.7837,212272,7926,2021-05-19,04:20:42
-Jersey,United Kingdom,49.2138,-2.1358,3235,69,2021-05-19,04:20:42
-Guernsey,United Kingdom,49.448196,-2.58949,822,17,2021-05-19,04:20:42
-Pitcairn Islands,United Kingdom,-24.3768,-128.3242,0,0,2021-05-19,04:20:42
 Anguilla,United Kingdom,18.2206,-63.0686,109,0,2021-05-20,04:21:05
 Bermuda,United Kingdom,32.3078,-64.7505,2479,32,2021-05-20,04:21:05
 British Virgin Islands,United Kingdom,18.4207,-64.64,248,1,2021-05-20,04:21:05
@@ -9094,7 +9075,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-09,04:21:11
 Jersey,United Kingdom,49.2138,-2.1358,59163,136,2022-09-09,04:21:11
 Montserrat,United Kingdom,16.742498,-62.187366,1229,8,2022-09-09,04:21:11
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-09,04:21:11
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-09,04:21:11
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,31,0,2022-09-09,04:21:11
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-09,04:21:11
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6372,36,2022-09-09,04:21:11
 Unknown,United Kingdom,,,0,135,2022-09-09,04:21:11
@@ -9113,7 +9094,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-10,04:21:10
 Jersey,United Kingdom,49.2138,-2.1358,59163,136,2022-09-10,04:21:10
 Montserrat,United Kingdom,16.742498,-62.187366,1229,8,2022-09-10,04:21:10
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-10,04:21:10
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-10,04:21:10
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,33,0,2022-09-10,04:21:10
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-10,04:21:10
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6372,36,2022-09-10,04:21:10
 Unknown,United Kingdom,,,0,120,2022-09-10,04:21:10
@@ -9132,7 +9113,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-11,04:20:50
 Jersey,United Kingdom,49.2138,-2.1358,59163,136,2022-09-11,04:20:50
 Montserrat,United Kingdom,16.742498,-62.187366,1276,8,2022-09-11,04:20:50
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-11,04:20:50
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-11,04:20:50
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,92,0,2022-09-11,04:20:50
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-11,04:20:50
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6372,36,2022-09-11,04:20:50
 Unknown,United Kingdom,,,0,120,2022-09-11,04:20:50
@@ -9151,7 +9132,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-12,04:20:58
 Jersey,United Kingdom,49.2138,-2.1358,59163,136,2022-09-12,04:20:58
 Montserrat,United Kingdom,16.742498,-62.187366,1276,8,2022-09-12,04:20:58
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-12,04:20:58
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-12,04:20:58
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,95,0,2022-09-12,04:20:58
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-12,04:20:58
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6372,36,2022-09-12,04:20:58
 Unknown,United Kingdom,,,0,120,2022-09-12,04:20:58
@@ -9170,7 +9151,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-13,04:20:57
 Jersey,United Kingdom,49.2138,-2.1358,59270,137,2022-09-13,04:20:57
 Montserrat,United Kingdom,16.742498,-62.187366,1276,8,2022-09-13,04:20:57
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-13,04:20:57
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-13,04:20:57
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,101,0,2022-09-13,04:20:57
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-13,04:20:57
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6372,36,2022-09-13,04:20:57
 Unknown,United Kingdom,,,0,120,2022-09-13,04:20:57
@@ -9190,7 +9171,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59270,137,2022-09-14,04:20:44
 Montserrat,United Kingdom,16.742498,-62.187366,1276,8,2022-09-14,04:20:44
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-14,04:20:44
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-14,04:20:44
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-14,04:20:44
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,107,0,2022-09-14,04:20:44
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-14,04:20:44
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6372,36,2022-09-14,04:20:44
 Unknown,United Kingdom,,,0,120,2022-09-14,04:20:44
@@ -9208,7 +9189,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-15,04:21:02
 Jersey,United Kingdom,49.2138,-2.1358,59270,137,2022-09-15,04:21:02
 Montserrat,United Kingdom,16.742498,-62.187366,1276,8,2022-09-15,04:21:02
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-15,04:21:02
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-15,04:21:02
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,111,0,2022-09-15,04:21:02
 Scotland,United Kingdom,56.4907,-4.2026,2095171,15618,2022-09-15,04:21:02
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-15,04:21:02
 Unknown,United Kingdom,,,0,120,2022-09-15,04:21:02
@@ -9227,7 +9208,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-16,04:21:19
 Jersey,United Kingdom,49.2138,-2.1358,59270,137,2022-09-16,04:21:19
 Montserrat,United Kingdom,16.742498,-62.187366,1326,8,2022-09-16,04:21:19
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-16,04:21:19
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-16,04:21:19
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,117,0,2022-09-16,04:21:19
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-16,04:21:19
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-16,04:21:19
 Unknown,United Kingdom,,,0,120,2022-09-16,04:21:19
@@ -9246,7 +9227,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-17,04:20:19
 Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-17,04:20:19
 Montserrat,United Kingdom,16.742498,-62.187366,1326,8,2022-09-17,04:20:19
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-17,04:20:19
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-17,04:20:19
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,126,0,2022-09-17,04:20:19
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-17,04:20:19
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-17,04:20:19
 Unknown,United Kingdom,,,0,120,2022-09-17,04:20:19
@@ -9265,7 +9246,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-18,04:22:50
 Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-18,04:22:50
 Montserrat,United Kingdom,16.742498,-62.187366,1326,8,2022-09-18,04:22:50
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-18,04:22:50
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-18,04:22:50
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,144,0,2022-09-18,04:22:50
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-18,04:22:50
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-18,04:22:50
 Unknown,United Kingdom,,,0,120,2022-09-18,04:22:50
@@ -9284,7 +9265,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-19,04:21:49
 Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-19,04:21:49
 Montserrat,United Kingdom,16.742498,-62.187366,1326,8,2022-09-19,04:21:49
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-19,04:21:49
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-19,04:21:49
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,164,0,2022-09-19,04:21:49
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-19,04:21:49
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-19,04:21:49
 Unknown,United Kingdom,,,0,120,2022-09-19,04:21:49
@@ -9303,7 +9284,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-20,04:22:48
 Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-20,04:22:48
 Montserrat,United Kingdom,16.742498,-62.187366,1326,8,2022-09-20,04:22:48
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-20,04:22:48
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-20,04:22:48
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,175,0,2022-09-20,04:22:48
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-20,04:22:48
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-20,04:22:48
 Unknown,United Kingdom,,,0,120,2022-09-20,04:22:48
@@ -9322,7 +9303,7 @@ Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-21,04:23:22
 Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-21,04:23:22
 Montserrat,United Kingdom,16.742498,-62.187366,1356,8,2022-09-21,04:23:22
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-21,04:23:22
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-21,04:23:22
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,188,0,2022-09-21,04:23:22
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-21,04:23:22
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-21,04:23:22
 Unknown,United Kingdom,,,0,120,2022-09-21,04:23:22
@@ -9342,7 +9323,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-22,04:22:56
 Montserrat,United Kingdom,16.742498,-62.187366,1356,8,2022-09-22,04:22:56
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-22,04:22:56
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-22,04:22:56
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-22,04:22:56
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,663,0,2022-09-22,04:22:56
 Scotland,United Kingdom,56.4907,-4.2026,2098635,15618,2022-09-22,04:22:56
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-22,04:22:56
 Unknown,United Kingdom,,,0,120,2022-09-22,04:22:56
@@ -9361,7 +9342,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59555,138,2022-09-23,04:23:13
 Montserrat,United Kingdom,16.742498,-62.187366,1381,8,2022-09-23,04:23:13
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-23,04:23:13
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-23,04:23:13
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-23,04:23:13
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,672,0,2022-09-23,04:23:13
 Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-23,04:23:13
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-23,04:23:13
 Unknown,United Kingdom,,,0,120,2022-09-23,04:23:13
@@ -9380,7 +9361,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59874,138,2022-09-24,04:21:40
 Montserrat,United Kingdom,16.742498,-62.187366,1381,8,2022-09-24,04:21:40
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-24,04:21:40
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-24,04:21:40
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-24,04:21:40
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,672,0,2022-09-24,04:21:40
 Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-24,04:21:40
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-24,04:21:40
 Unknown,United Kingdom,,,0,120,2022-09-24,04:21:40
@@ -9399,7 +9380,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59874,138,2022-09-25,04:23:31
 Montserrat,United Kingdom,16.742498,-62.187366,1392,8,2022-09-25,04:23:31
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-25,04:23:31
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-25,04:23:31
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-25,04:23:31
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,1521,0,2022-09-25,04:23:31
 Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-25,04:23:31
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-25,04:23:31
 Unknown,United Kingdom,,,0,120,2022-09-25,04:23:31
@@ -9418,7 +9399,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59874,138,2022-09-26,04:20:52
 Montserrat,United Kingdom,16.742498,-62.187366,1392,8,2022-09-26,04:20:52
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-26,04:20:52
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-26,04:20:52
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-26,04:20:52
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,1521,0,2022-09-26,04:20:52
 Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-26,04:20:52
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-26,04:20:52
 Unknown,United Kingdom,,,0,120,2022-09-26,04:20:52
@@ -9437,7 +9418,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59874,138,2022-09-27,04:23:01
 Montserrat,United Kingdom,16.742498,-62.187366,1392,8,2022-09-27,04:23:01
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-27,04:23:01
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-27,04:23:01
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-27,04:23:01
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,1521,0,2022-09-27,04:23:01
 Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-27,04:23:01
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-27,04:23:01
 Unknown,United Kingdom,,,0,120,2022-09-27,04:23:01
@@ -9456,7 +9437,7 @@ Jersey,United Kingdom,49.2138,-2.1358,59874,138,2022-09-28,04:23:01
 Montserrat,United Kingdom,16.742498,-62.187366,1396,8,2022-09-28,04:23:01
 Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4837,2022-09-28,04:23:01
 Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-28,04:23:01
-"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,7,0,2022-09-28,04:23:01
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,1521,0,2022-09-28,04:23:01
 Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-28,04:23:01
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-28,04:23:01
 Unknown,United Kingdom,,,0,120,2022-09-28,04:23:01
@@ -9480,3 +9461,22 @@ Scotland,United Kingdom,56.4907,-4.2026,2101498,15618,2022-09-29,04:22:34
 Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-29,04:22:34
 Unknown,United Kingdom,,,0,120,2022-09-29,04:22:34
 Wales,United Kingdom,52.1307,-3.7837,885103,10776,2022-09-29,04:22:34
+Anguilla,United Kingdom,18.2206,-63.0686,3865,12,2022-09-30,04:23:09
+Bermuda,United Kingdom,32.3078,-64.7505,18154,148,2022-09-30,04:23:09
+British Virgin Islands,United Kingdom,18.4207,-64.64,7305,64,2022-09-30,04:23:09
+Cayman Islands,United Kingdom,19.3133,-81.2546,30661,32,2022-09-30,04:23:09
+Channel Islands,United Kingdom,49.3723,-2.3644,0,0,2022-09-30,04:23:09
+England,United Kingdom,52.3555,-1.1743,19968866,175526,2022-09-30,04:23:09
+Falkland Islands (Malvinas),United Kingdom,-51.7963,-59.5236,1930,0,2022-09-30,04:23:09
+Gibraltar,United Kingdom,36.1408,-5.3536,20092,108,2022-09-30,04:23:09
+Guernsey,United Kingdom,49.448196,-2.58949,31309,63,2022-09-30,04:23:09
+Isle of Man,United Kingdom,54.2361,-4.5481,38008,116,2022-09-30,04:23:09
+Jersey,United Kingdom,49.2138,-2.1358,59874,138,2022-09-30,04:23:09
+Montserrat,United Kingdom,16.742498,-62.187366,1396,8,2022-09-30,04:23:09
+Northern Ireland,United Kingdom,54.7877,-6.4923,713294,4852,2022-09-30,04:23:09
+Pitcairn Islands,United Kingdom,-24.3768,-128.3242,4,0,2022-09-30,04:23:09
+"Saint Helena, Ascension and Tristan da Cunha",United Kingdom,-7.9467,-14.3559,1521,0,2022-09-30,04:23:09
+Scotland,United Kingdom,56.4907,-4.2026,2105010,15698,2022-09-30,04:23:09
+Turks and Caicos Islands,United Kingdom,21.694,-71.7979,6380,36,2022-09-30,04:23:09
+Unknown,United Kingdom,,,0,318,2022-09-30,04:23:09
+Wales,United Kingdom,52.1307,-3.7837,885682,10789,2022-09-30,04:23:09
