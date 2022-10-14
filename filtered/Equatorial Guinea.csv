@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Equatorial Guinea,1.6508,10.2679,8529,118,2021-06-01,04:23:09
 ,Equatorial Guinea,1.6508,10.2679,8572,118,2021-06-02,04:24:34
 ,Equatorial Guinea,1.6508,10.2679,8572,118,2021-06-03,04:23:32
 ,Equatorial Guinea,1.6508,10.2679,8572,118,2021-06-04,04:23:37
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Equatorial Guinea,1.6508,10.2679,17030,183,2022-10-10,04:22:32
 ,Equatorial Guinea,1.6508,10.2679,17040,183,2022-10-11,04:23:05
 ,Equatorial Guinea,1.6508,10.2679,17046,183,2022-10-12,04:22:51
+,Equatorial Guinea,1.6508,10.2679,17046,183,2022-10-13,04:22:39
