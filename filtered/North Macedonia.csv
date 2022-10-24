@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,North Macedonia,41.6086,21.7453,155487,5468,2021-06-11,04:23:20
 ,North Macedonia,41.6086,21.7453,155507,5470,2021-06-12,04:22:22
 ,North Macedonia,41.6086,21.7453,155528,5471,2021-06-13,04:22:44
 ,North Macedonia,41.6086,21.7453,155536,5471,2021-06-14,04:22:46
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,North Macedonia,41.6086,21.7453,343824,9556,2022-10-20,04:22:59
 ,North Macedonia,41.6086,21.7453,343800,9559,2022-10-21,04:22:23
 ,North Macedonia,41.6086,21.7453,343850,9559,2022-10-22,04:22:53
+,North Macedonia,41.6086,21.7453,343850,9559,2022-10-23,04:22:46
