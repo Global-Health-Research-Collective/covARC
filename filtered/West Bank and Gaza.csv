@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,West Bank and Gaza,31.9522,35.2332,312673,3551,2021-06-21,04:21:41
 ,West Bank and Gaza,31.9522,35.2332,312811,3554,2021-06-22,04:21:34
 ,West Bank and Gaza,31.9522,35.2332,313015,3555,2021-06-23,04:21:46
 ,West Bank and Gaza,31.9522,35.2332,313015,3555,2021-06-24,04:21:55
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,West Bank and Gaza,31.9522,35.2332,703014,5708,2022-10-30,04:22:14
 ,West Bank and Gaza,31.9522,35.2332,703014,5708,2022-10-31,04:21:36
 ,West Bank and Gaza,31.9522,35.2332,703036,5708,2022-11-01,04:22:36
+,West Bank and Gaza,31.9522,35.2332,703036,5708,2022-11-02,04:22:09
