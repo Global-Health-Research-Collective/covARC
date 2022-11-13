@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Mauritania,21.0079,-10.9408,20808,489,2021-07-01,04:21:19
 ,Mauritania,21.0079,-10.9408,20894,489,2021-07-02,04:21:47
 ,Mauritania,21.0079,-10.9408,20977,489,2021-07-03,04:21:37
 ,Mauritania,21.0079,-10.9408,21027,489,2021-07-04,04:21:38
@@ -498,3 +497,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Mauritania,21.0079,-10.9408,63403,997,2022-11-09,04:21:22
 ,Mauritania,21.0079,-10.9408,63407,997,2022-11-10,04:21:16
 ,Mauritania,21.0079,-10.9408,63407,997,2022-11-11,04:21:22
+,Mauritania,21.0079,-10.9408,63410,997,2022-11-12,04:20:41
