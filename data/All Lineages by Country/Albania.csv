@@ -331,7 +331,7 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2022-01-06,0,0,ay.43,0,0,Albania
 2022-01-07,0,0,ay.43,0,0,Albania
 2022-01-08,1,1,ay.43,1,1,Albania
-2021-12-13,1,1,ay.46,1,1,Albania
+2021-12-13,1,1,ay.46.5,1,1,Albania
 2021-06-16,2,1,ay.9,0.5,0.5,Albania
 2020-12-10,2,2,b.1.1.7,1,1,Albania
 2020-12-11,0,0,b.1.1.7,0,1,Albania
@@ -384,7 +384,7 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-01-27,1,1,b.1.1.7,1,1,Albania
 2021-01-28,2,2,b.1.1.7,1,1,Albania
 2021-01-29,2,2,b.1.1.7,1,1,Albania
-2021-01-30,1,1,b.1.1.7,1,1,Albania
+2021-01-30,0,0,b.1.1.7,0,1,Albania
 2021-01-31,1,1,b.1.1.7,1,1,Albania
 2021-02-01,0,0,b.1.1.7,0,1,Albania
 2021-02-02,0,0,b.1.1.7,0,1,Albania
@@ -550,7 +550,7 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-07-12,0,0,b.1.1.7,0,0,Albania
 2021-07-13,2,1,b.1.1.7,0.5,0.072289156626506,Albania
 2021-01-21,3,1,b.1.160,0.333333333333333,0.7,Albania
-2020-09-05,1,1,b.1.236,1,1,Albania
 2021-06-16,2,1,b.1.617.2,0.5,0.5,Albania
-2022-02-24,1,1,ba.1,1,1,Albania
+2022-02-24,1,1,ba.1.1,1,1,Albania
 2022-04-07,1,1,ba.2,1,1,Albania
+2020-09-05,1,1,other,1,1,Albania
