@@ -1,12 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-Australian Capital Territory,Australia,-35.4735,149.0124,113,3.0,2020-08-13,04:29:15
-New South Wales,Australia,-33.8688,151.2093,3927,51.0,2020-08-13,04:29:15
-Northern Territory,Australia,-12.4634,130.8456,33,0.0,2020-08-13,04:29:15
-Queensland,Australia,-27.4698,153.0251,1089,6.0,2020-08-13,04:29:15
-South Australia,Australia,-34.9285,138.6007,459,4.0,2020-08-13,04:29:15
-Tasmania,Australia,-42.8821,147.3272,230,13.0,2020-08-13,04:29:15
-Victoria,Australia,-37.8136,144.9631,15863,275.0,2020-08-13,04:29:15
-Western Australia,Australia,-31.9505,115.8605,644,9.0,2020-08-13,04:29:15
 Australian Capital Territory,Australia,-35.4735,149.0124,113,3.0,2020-08-14,04:51:19
 New South Wales,Australia,-33.8688,151.2093,3936,51.0,2020-08-14,04:51:19
 Northern Territory,Australia,-12.4634,130.8456,33,0.0,2020-08-14,04:51:19
@@ -6791,3 +6783,11 @@ South Australia,Australia,-34.9285,138.6007,830702,1109.0,2022-12-09,04:21:05
 Tasmania,Australia,-42.8821,147.3272,264905,206.0,2022-12-09,04:21:05
 Victoria,Australia,-37.8136,144.9631,2768656,6132.0,2022-12-09,04:21:05
 Western Australia,Australia,-31.9505,115.8605,1233271,792.0,2022-12-09,04:21:05
+Australian Capital Territory,Australia,-35.4735,149.0124,218698,135.0,2022-12-10,04:21:02
+New South Wales,Australia,-33.8688,151.2093,3718440,5620.0,2022-12-10,04:21:02
+Northern Territory,Australia,-12.4634,130.8456,101312,83.0,2022-12-10,04:21:02
+Queensland,Australia,-27.4698,153.0251,1714583,2361.0,2022-12-10,04:21:02
+South Australia,Australia,-34.9285,138.6007,830078,1109.0,2022-12-10,04:21:02
+Tasmania,Australia,-42.8821,147.3272,268935,209.0,2022-12-10,04:21:02
+Victoria,Australia,-37.8136,144.9631,2771624,6153.0,2022-12-10,04:21:02
+Western Australia,Australia,-31.9505,115.8605,1233271,792.0,2022-12-10,04:21:02
