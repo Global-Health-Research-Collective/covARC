@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,South Sudan,6.877000000000002,31.307,2488,47.0,2020-08-16,04:27:42
 ,South Sudan,6.877000000000002,31.307,2489,47.0,2020-08-17,04:27:20
 ,South Sudan,6.877000000000002,31.307,2490,47.0,2020-08-18,04:27:56
 ,South Sudan,6.877,31.307,2490,47.0,2020-08-19,04:27:00
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,South Sudan,6.877,31.307,18352,138.0,2022-12-10,04:21:02
 ,South Sudan,6.877,31.307,18352,138.0,2022-12-11,04:20:50
 ,South Sudan,6.877,31.307,18352,138.0,2022-12-12,04:21:01
+,South Sudan,6.877,31.307,18352,138.0,2022-12-13,04:21:01
