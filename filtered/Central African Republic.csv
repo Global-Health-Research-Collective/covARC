@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Central African Republic,6.6111,20.9394,4711,62.0,2020-09-01,04:28:31
 ,Central African Republic,6.6111,20.9394,4711,62.0,2020-09-02,04:28:25
 ,Central African Republic,6.6111,20.9394,4712,62.0,2020-09-03,04:28:22
 ,Central African Republic,6.6111,20.9394,4729,62.0,2020-09-04,04:28:26
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Central African Republic,6.6111,20.9394,15311,113.0,2022-12-26,04:21:06
 ,Central African Republic,6.6111,20.9394,15351,113.0,2022-12-27,04:21:07
 ,Central African Republic,6.6111,20.9394,15351,113.0,2022-12-28,04:21:04
+,Central African Republic,6.6111,20.9394,15351,113.0,2022-12-29,04:21:01
