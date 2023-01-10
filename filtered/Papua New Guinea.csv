@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Papua New Guinea,-6.314993,143.95555,508,5.0,2020-09-12,04:25:05
 ,Papua New Guinea,-6.314993,143.95555,508,5.0,2020-09-13,04:30:52
 ,Papua New Guinea,-6.314993,143.95555,510,6.0,2020-09-14,04:26:00
 ,Papua New Guinea,-6.314993,143.95555,511,6.0,2020-09-15,03:22:50
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Papua New Guinea,-6.314993,143.95555,46663,669.0,2023-01-06,04:21:02
 ,Papua New Guinea,-6.314993,143.95555,46663,669.0,2023-01-07,04:21:00
 ,Papua New Guinea,-6.314993,143.95555,46663,669.0,2023-01-08,04:21:05
+,Papua New Guinea,-6.314993,143.95555,46663,669.0,2023-01-09,04:20:52
