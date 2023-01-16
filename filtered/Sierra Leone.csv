@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Sierra Leone,8.460555,-11.779889,2133,72.0,2020-09-18,05:05:00
 ,Sierra Leone,8.460555,-11.779889,2153,72.0,2020-09-19,04:22:00
 ,Sierra Leone,8.460555,-11.779889,2159,72.0,2020-09-20,04:22:00
 ,Sierra Leone,8.460555,-11.779889,2168,72.0,2020-09-21,04:23:00
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Sierra Leone,8.460555,-11.779889,7760,126.0,2023-01-12,04:20:59
 ,Sierra Leone,8.460555,-11.779889,7760,126.0,2023-01-13,04:20:58
 ,Sierra Leone,8.460555,-11.779889,7760,126.0,2023-01-14,04:20:58
+,Sierra Leone,8.460555,-11.779889,7760,126.0,2023-01-15,04:20:53
