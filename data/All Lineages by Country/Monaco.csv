@@ -567,6 +567,7 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-08-01,0,0,ay.98.1,0,0.3125,Monaco
 2021-08-02,5,1,ay.98.1,0.2,0.327272727272727,Monaco
 2021-02-22,5,1,b.1.1.176,0.2,0.2,Monaco
+2022-06-28,1,1,b.1.1.529.5.1.23,1,1,Monaco
 2021-02-04,1,1,b.1.1.7,1,1,Monaco
 2021-02-05,0,0,b.1.1.7,0,1,Monaco
 2021-02-06,0,0,b.1.1.7,0,1,Monaco
@@ -660,5 +661,4 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2022-02-16,2,1,ba.2.3.15,0.5,0.411764705882353,Monaco
 2022-05-21,2,1,ba.4.2,0.5,0.5,Monaco
 2022-05-22,1,1,ba.4.2,1,1,Monaco
-2022-06-28,1,1,ba.5.1.23,1,1,Monaco
 2022-05-21,2,1,ba.5.2,0.5,0.5,Monaco

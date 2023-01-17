@@ -1,6 +1,4 @@
 date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
-2020-11-24,2,1,a.21,0.5,0.5,Central African Republic
-2020-12-15,1,1,a.23.1,1,1,Central African Republic
 2022-01-03,40,1,ay.122,0.025,0.025,Central African Republic
 2021-12-12,1,1,ay.4,1,1,Central African Republic
 2020-11-11,1,1,b.1,1,1,Central African Republic
@@ -130,7 +128,7 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-03-15,0,0,b.1,0,0.111111111111111,Central African Republic
 2021-03-16,0,0,b.1,0,0.111111111111111,Central African Republic
 2021-03-17,3,1,b.1,0.333333333333333,0.181818181818182,Central African Republic
-2020-12-02,1,1,b.1.1.359,1,1,Central African Republic
+2022-01-03,40,1,b.1.1.529.1.1.1,0.025,0.025,Central African Republic
 2021-01-20,1,1,b.1.1.7,1,1,Central African Republic
 2021-01-21,0,0,b.1.1.7,0,1,Central African Republic
 2021-01-22,0,0,b.1.1.7,0,1,Central African Republic
@@ -188,7 +186,6 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2021-03-15,4,1,b.1.1.7,0.25,0.444444444444444,Central African Republic
 2021-03-16,0,0,b.1.1.7,0,0.222222222222222,Central African Republic
 2021-03-17,3,2,b.1.1.7,0.666666666666667,0.363636363636364,Central African Republic
-2020-11-24,2,1,b.1.160,0.5,0.5,Central African Republic
 2021-02-11,1,1,b.1.351,1,0.875,Central African Republic
 2021-02-02,1,1,b.1.466.1,1,0.777777777777778,Central African Republic
 2021-02-03,0,0,b.1.466.1,0,0.777777777777778,Central African Republic
@@ -283,6 +280,27 @@ date,total_count,lineage_count,lineage,prevalence,prevalence_rolling,Country
 2022-01-03,40,12,b.1.640.1,0.3,0.3,Central African Republic
 2022-01-03,40,8,ba.1,0.2,0.2,Central African Republic
 2022-01-03,40,16,ba.1.1,0.4,0.4,Central African Republic
-2022-01-03,40,1,ba.1.1.1,0.025,0.025,Central African Republic
 2022-01-03,40,1,ba.1.17,0.025,0.025,Central African Republic
 2022-01-03,40,1,ba.1.18,0.025,0.025,Central African Republic
+2020-11-24,2,2,other,1,1,Central African Republic
+2020-11-25,0,0,other,0,1,Central African Republic
+2020-11-26,0,0,other,0,1,Central African Republic
+2020-11-27,0,0,other,0,1,Central African Republic
+2020-11-28,0,0,other,0,1,Central African Republic
+2020-11-29,0,0,other,0,1,Central African Republic
+2020-11-30,0,0,other,0,1,Central African Republic
+2020-12-01,0,0,other,0,0,Central African Republic
+2020-12-02,1,1,other,1,1,Central African Republic
+2020-12-03,0,0,other,0,1,Central African Republic
+2020-12-04,0,0,other,0,1,Central African Republic
+2020-12-05,0,0,other,0,1,Central African Republic
+2020-12-06,0,0,other,0,1,Central African Republic
+2020-12-07,0,0,other,0,1,Central African Republic
+2020-12-08,0,0,other,0,1,Central African Republic
+2020-12-09,0,0,other,0,0,Central African Republic
+2020-12-10,0,0,other,0,0,Central African Republic
+2020-12-11,0,0,other,0,0,Central African Republic
+2020-12-12,0,0,other,0,0,Central African Republic
+2020-12-13,0,0,other,0,0,Central African Republic
+2020-12-14,0,0,other,0,0,Central African Republic
+2020-12-15,1,1,other,1,1,Central African Republic
