@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Saint Kitts and Nevis,17.357822,-62.782998,19,0.0,2020-10-05,04:23:33
 ,Saint Kitts and Nevis,17.357822,-62.782998,19,0.0,2020-10-06,04:23:33
 ,Saint Kitts and Nevis,17.357822,-62.782998,19,0.0,2020-10-07,04:23:40
 ,Saint Kitts and Nevis,17.357822,-62.782998,19,0.0,2020-10-08,04:23:56
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Saint Kitts and Nevis,17.357822,-62.782998,6591,46.0,2023-01-29,04:21:02
 ,Saint Kitts and Nevis,17.357822,-62.782998,6591,46.0,2023-01-30,04:20:59
 ,Saint Kitts and Nevis,17.357822,-62.782998,6592,46.0,2023-01-31,04:20:32
+,Saint Kitts and Nevis,17.357822,-62.782998,6592,46.0,2023-02-01,04:20:54
