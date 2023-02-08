@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,Summer Olympics 2020,35.6491,139.7737,0,0.0,2020-10-11,04:23:46
 ,Summer Olympics 2020,35.6491,139.7737,0,0.0,2020-10-12,04:23:45
 ,Summer Olympics 2020,35.6491,139.7737,0,0.0,2020-10-13,04:24:02
 ,Summer Olympics 2020,35.6491,139.7737,0,0.0,2020-10-14,04:24:05
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,Summer Olympics 2020,35.6491,139.7737,865,0.0,2023-02-04,04:21:01
 ,Summer Olympics 2020,35.6491,139.7737,865,0.0,2023-02-05,04:20:56
 ,Summer Olympics 2020,35.6491,139.7737,865,0.0,2023-02-06,04:21:01
+,Summer Olympics 2020,35.6491,139.7737,865,0.0,2023-02-07,04:21:05
