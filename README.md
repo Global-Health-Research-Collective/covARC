@@ -6,6 +6,14 @@ CovARC extracts the data regularly from the [COVID-19 Data Repository by the Cen
 
 ![alt text](https://github.com/Global-Health-Research-Collective/covARC/blob/main/illustrations/screenshot.png)
 
+## Description
+The repository consists of several folders which are described as follows:
+- `data/Country/processed` folder consists of data related to prevalence of different variants in different countries around the world.
+- `filtered` folder consists of filtered data from the [CSSE github repository](https://github.com/CSSEGISandData/COVID-19) that is regularly updated through the `pre_proc.py` script (requires only pandas installation)
+- The `risk_calculator_code` consists of 3 R scripts, `app.R` is the source code for the shiny app which is currently being used as a web-interface, `runner.R` which is just the code for the initial local version of CovARC, `plots.R` which used the data from `updated_final_csv` folder to create plots stored in `covid_plots` folder.
+
+The R code was run using [RStudio](https://posit.co/download/rstudio-desktop/) after installing the related dependencies using the IDE.
+
 The risk calculator can be used to calculate individual's risk of catching COVID-19 infection when carrying out for day-to-day activities. The calculator considers the number of people the user will pass (in indoor and outdoor space) when carrying out the daily activity to estimate several risks associated with carrying out the daily activity. Apart from the number of people passed indoors and outdoors, the system also considers the following inputs:
 - Country
 - Region
@@ -24,7 +32,7 @@ Using this we calculate the risk increase due to rise in number of COVID cases o
 
 ## Citation
 ```
-@misc{https://doi.org/10.48550/arxiv.2212.05035,
+@misc{Natraj_2022,
 doi = {10.48550/ARXIV.2212.05035},
 url = {https://arxiv.org/abs/2212.05035},
 author = {Natraj, Shreyasvi and Bhide, Malhar and Yap, Nathan and Liu, Meng and Seth, Agrima and Berman, Jonathan and Glorioso, Christin},
@@ -35,3 +43,4 @@ year = {2022},
 copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
+Please feel free to inform us in case of any issues or contact `gloriosoca@gmail.com` or `shreyasvi.natraj@unige.ch`
