@@ -1,5 +1,4 @@
 Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
-,"Korea, North",40.3399,127.5101,0,0,2020-11-07,05:24:52
 ,"Korea, North",40.3399,127.5101,0,0,2020-11-08,05:24:56
 ,"Korea, North",40.3399,127.5101,0,0,2020-11-09,05:25:45
 ,"Korea, North",40.3399,127.5101,0,0,2020-11-10,05:40:07
@@ -848,3 +847,4 @@ Province_State,Country_Region,Lat,Long_,Confirmed,Deaths,Date,Time
 ,"Korea, North",40.3399,127.5101,1,6,2023-03-03,04:20:59
 ,"Korea, North",40.3399,127.5101,1,6,2023-03-04,04:20:56
 ,"Korea, North",40.3399,127.5101,1,6,2023-03-05,04:21:01
+,"Korea, North",40.3399,127.5101,1,6,2023-03-06,04:20:56
