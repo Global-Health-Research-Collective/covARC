@@ -10,13 +10,13 @@ people_passed_indoor = 5
 #date = "2022-04-13"
 region = "Delhi"
 county = NaN #Add NaN in case not applicable 
-mask_type = "N95 respirator"
+mask_type = "No Mask"
 
 type_vaccine_dose = "No Vaccine"#"Moderna (Dose 2)"
 
 past_covid_infection = "No" #Past infection in past 8 months
 
-age_group = 30
+age_group = 60
 gender = "Male"
 chronic_illness = "No" #Diabetes, Heart Disease, Cancer, Lung disease, High Blood Pressure, Immunocompromised, Asthma, Kidney Disease, Obesity, Sickle Cell Anemia, HIV, Liver Disease
 
@@ -485,7 +485,7 @@ for (date_1 in jhu_dataset_date$date){
 }
 
 graphical <- graphical[!duplicated(graphical), ]
-write.csv(graphical,'delhi_india_n95_no_vaccine_30.csv')
+write.csv(graphical,'delhi_india_no_mask_no_vaccine_60.csv')
 #write.csv(graphical,'france_no_mask_no_vaccine_30.csv')
 
 #==================================================================================================================
