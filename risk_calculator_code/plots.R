@@ -4,6 +4,12 @@ library(curl)
 library(tidyverse)
 library(ggplot2)
 
+df = read.csv('quebec_canada_no_mask_no_vaccine_30.csv', skip=1, header=F)
+df = df[-c(1)]
+colnames(df) <- c('date','fac_aggregate_cases','fac_aggregate_cases_per_pop','cum_risk_factor','cum_risk_factor_u','hosp_risk_lower','hosp_risk_upper','death_risk_lower','death_risk_upper','f_risk')
+df$date = as.Date(df_massachusetts_usa$date,origin = "1970-01-01")
+
+
 df_massachusetts_usa <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_time.csv', skip = 1, header = F)
 df_massachusetts_usa_m1 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_m1.csv', skip = 1, header = F)
 df_massachusetts_usa_m2 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_m2.csv', skip = 1, header = F)

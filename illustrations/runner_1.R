@@ -3,21 +3,6 @@ library(dplyr)
 library(curl)
 library(tidyverse)
 
-library(aws.s3)
-Sys.setenv("AWS_ACCESS_KEY_ID" = "AKIAQKKGYNQC433Z2ZNA",
-           "AWS_SECRET_ACCESS_KEY" = "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")
-
-s3_bucket="covid-data-overall"
-
-readFromS3 = function(filename, bucket, sep = ','){
-  return(s3read_using(FUN=read.csv, 
-                      bucket = bucket, 
-                      object=filename,
-                      sep = sep, header=T))
-}
-
-variants_dataset <- readFromS3('s3://covid-data-overall/processed/risk-calculator-data/all_countries_galphabet_variants.csv',s3_bucket,sep = ',' )
-
 graphical = data.frame()
 country_list <- read.csv('C:/Users/shrey/Downloads/covid/country_name_code.csv')
 #country_list <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/country_name_code.csv?token=ACZDUYBLH4IUWYMBZBM7IKTBBP62I"))
@@ -41,27 +26,23 @@ country_code_csv = paste(country_code,"csv",sep = ".")
 #=================Filtering the US Dataset from Oxford Dataset========================================================
 #Just use the covid policy tracker for everything rather than coronasurveys
 
-if (country_code=="US") {
-  #jhu_dataset <- read.csv(curl("https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"))
-  jhu_dataset <- readFromS3('s3://covid-data-overall/processed/risk-calculator-data/USStates_confirmed_cases_deaths.csv',s3_bucket,sep = ',')
-  #jhu_dataset <- jhu_dataset[jhu_dataset$CountryName=="United States",]
-  #jhu_dataset <- jhu_dataset[c(1,3,6,40,41)]
+if (country_name=="United States") {
+  
+  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/covid/covARC/filtered/US/",region),".csv"))
   jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
-  jhu_dataset <- jhu_dataset[jhu_dataset$RegionName!="",]
-  jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y%m%d")
+  jhu_dataset <- jhu_dataset[jhu_dataset$Admin2!="",]
+  jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y-%m-%d")
+  colnames(jhu_dataset) <- c("city","region","country","Lat","Lon","Confirmed","Deaths","date","time")
   summary(jhu_dataset)
-  jhu_dataset <- jhu_dataset[-c(2,6,7)]
-  colnames(jhu_dataset) <- c("date","region","Confirmed","Deaths")
+  
 } else {
-  jhu_dataset <- read.csv(curl(paste("https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/jhu/region/",country_code_csv, sep="")))
-  jhu_dataset<-jhu_dataset[order(jhu_dataset[,1] ),]
-  
-  jhu_dataset <- jhu_dataset[,-c(1,8,9)]
-  jhu_dataset <- jhu_dataset[-c(4,5,6)]
-  
+  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/covid/covARC/filtered/",country_name),".csv"))
+  jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
+  jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y-%m-%d")
+  colnames(jhu_dataset) <- c("region","country","Lat","Lon","Confirmed","Deaths","date","time")
 }  
 
-if(country_code=="CA"){
+if(country_name=="Canada"){
   #==============Functions to Remove some common errors in JHU=================
   jhu_dataset <- jhu_dataset[jhu_dataset$region!="Unknown",]
   #======Functions to scrape out Canada JHU Dataset============================
@@ -84,6 +65,35 @@ if(country_code=="CA"){
   #=============================================================================
 }
 
+ratio_dataset <- read.csv("C:/Users/shrey/Downloads/covid/Ratios_Survey.csv")
+#ratio_dataset <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/Ratios_Survey.csv?token=ACZDUYD4JVF3ZIVRPC3ZV5LBBP7RW"))
+ratio_dataset <- ratio_dataset[-c(1:6)]
+ratio = ratio_dataset$Survey_Reported_Ratio[ratio_dataset$Country==country_name]
+jhu_dataset$Confirmed_u <- jhu_dataset$Confirmed*ratio
+
+population_full <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv")
+#population_full <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/UID_ISO_FIPS_LookUp_Table_population_Countries_Regions.csv?token=ACZDUYH5CI5OQ6DZWPN44P3BBP6VM"))
+population_full <- population_full[-c(1,2,3,4,5,9,10,11)]
+population_full <- population_full[!is.na(population_full$Population),]
+population_full <- population_full %>% mutate_if(is.character,as.factor)
+population_full$Country_Region <- gsub("US", "United States", population_full$Country_Region)
+
+if(country_name=="United States"){
+  if(!is.na(county)){
+    pop_var <- population_full$Population[population_full$Province_State==region & population_full$Country_Region==country_name & population_full$Admin2==county]
+    pop_var <- pop_var[1]
+  }else{
+    pop_var<-population_full$Population[population_full$Province_State==region]
+  }
+  
+}else{
+  if(!is.na(region)){
+    pop_var <- population_full$Population[population_full$Province_State==region & population_full$Country_Region==country_name]
+    pop_var <- pop_var[1]
+  }else{
+    pop_var<-population_full$Population[population_full$Country_Region==country_name]
+  }
+}
 
 ratio_dataset <- read.csv("C:/Users/shrey/Downloads/covid/Ratios_Survey.csv")
 #ratio_dataset <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/Ratios_Survey.csv?token=ACZDUYD4JVF3ZIVRPC3ZV5LBBP7RW"))

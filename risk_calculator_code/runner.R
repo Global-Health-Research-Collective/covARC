@@ -4,7 +4,7 @@ library(tidyverse)
 library(zoo)
 
 #==============Define the inputs======================================================================================
-country_name ="Switzerland"
+country_name ="South Africa"
 people_passed_outdoor = 10
 people_passed_indoor = 5
 date = "2022-02-02"
@@ -12,7 +12,7 @@ region = NaN
 county = NaN #Add NaN in case not applicable 
 mask_type = "No Mask"
 
-type_vaccine_dose = "Moderna (Dose 2)"
+type_vaccine_dose = "No Vaccine"
 
 past_covid_infection = "Yes" #Past infection in past 8 months
 
@@ -24,7 +24,7 @@ chronic_illness = "No" #Diabetes, Heart Disease, Cancer, Lung disease, High Bloo
 #=====================================================================================================================
 if (country_name=="United States") {
   
-  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/covid/covARC/filtered/US/",region),".csv"))
+  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/filtered/US/",region),".csv"))
   jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
   jhu_dataset <- jhu_dataset[jhu_dataset$Admin2!="",]
   jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y-%m-%d")
@@ -32,7 +32,7 @@ if (country_name=="United States") {
   summary(jhu_dataset)
 
 } else {
-  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/covid/covARC/filtered/",country_name),".csv"))
+  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/filtered/",country_name),".csv"))
   jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
   jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y-%m-%d")
   colnames(jhu_dataset) <- c("region","country","Lat","Lon","Confirmed","Deaths","date","time")
@@ -61,7 +61,7 @@ if(country_name=="Canada"){
   #=============================================================================
 }
 
-ratio_dataset <- read.csv("C:/Users/shrey/Downloads/covid/Ratios_Survey.csv")
+ratio_dataset <- read.csv("C:/Users/shrey/Downloads/Synapsy/covARC/data/Ratios_Survey.csv")
 #ratio_dataset <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/Ratios_Survey.csv?token=ACZDUYD4JVF3ZIVRPC3ZV5LBBP7RW"))
 ratio_dataset <- ratio_dataset[-c(1:6)]
 ratio = ratio_dataset$Survey_Reported_Ratio[ratio_dataset$Country==country_name]
@@ -206,18 +206,18 @@ fac_aggregate_cases_per_pop_u <- fac_aggregate_cases_u/pop_var
 #======================================================================================================
 #======================================================================================================
 
-mask <- read.csv("C:/Users/shrey/Downloads/covid/mask.csv") #Ref: https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19
+mask <- read.csv("C:/Users/shrey/Downloads/Synapsy/covARC/data/mask.csv") #Ref: https://www.epa.gov/sciencematters/epa-researchers-test-effectiveness-face-masks-disinfection-methods-against-covid-19
 #mask <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/mask.csv?token=ACZDUYEEPMIQ2GRZNQXAPYLBBP6K6"))
 mask<- mask %>% mutate_if(is.character,as.factor)
 mask$risk <- 1-mask$FFE
 summary(mask)
-vaccine_eff <- read.csv("C:/Users/shrey/Downloads/covid/vaccine_eff.csv", sep = ",") #Ref: https://yourlocalepidemiologist.substack.com/p/vaccine-table-update-lots-on-delta
+vaccine_eff <- read.csv("C:/Users/shrey/Downloads/Synapsy/covARC/data/vaccine_eff.csv", sep = ",") #Ref: https://yourlocalepidemiologist.substack.com/p/vaccine-table-update-lots-on-delta
 #vaccine_eff <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/vaccine_eff.csv?token=ACZDUYEVXTJVJEBGNSWYYV3BBP6RI"))
 vaccine_eff[is.na(vaccine_eff)] <- 0
 vaccine_eff$vaccine <- as.factor(vaccine_eff$vaccine)
 
 #================data pulling script======================== 
-variants_dataset <- read_csv(paste0(paste0("C:/Users/shrey/Downloads/covid/processed/",country_name),".csv"))
+variants_dataset <- read_csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/data/Country/processed/",country_name),".csv"))
 variants_dataset$Date <- as.Date(variants_dataset$Date)
 #variants_dataset <- variants_dataset[-c(2,3)]
 variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-31,]

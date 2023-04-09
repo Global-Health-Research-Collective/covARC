@@ -22,7 +22,7 @@ jobs:
 
     - name: Processing Data
       run: |
-        python pre_proc.py
+          # python pre_proc.py
         
     - name: update file and push to remote
       run: |
