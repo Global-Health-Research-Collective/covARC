@@ -4,11 +4,11 @@ library(tidyverse)
 library(zoo)
 
 #==============Define the inputs======================================================================================
-country_name = "India"
+country_name = "South Africa"
 people_passed_outdoor = 10
 people_passed_indoor = 5
 #date = "2022-04-13"
-region = "Delhi"
+region = NaN
 county = NaN #Add NaN in case not applicable 
 mask_type = "No Mask"
 
@@ -16,7 +16,7 @@ type_vaccine_dose = "No Vaccine"#"Moderna (Dose 2)"
 
 past_covid_infection = "No" #Past infection in past 8 months
 
-age_group = 60
+age_group = 30
 gender = "Male"
 chronic_illness = "No" #Diabetes, Heart Disease, Cancer, Lung disease, High Blood Pressure, Immunocompromised, Asthma, Kidney Disease, Obesity, Sickle Cell Anemia, HIV, Liver Disease
 
@@ -176,7 +176,7 @@ jhu_dataset_date <- jhu_dataset_agg
 #jhu_dataset_date <- jhu_dataset_agg[which(jhu_dataset_agg$region==region),]
 
 for (date_1 in jhu_dataset_date$date){
-  date = date_1+12
+  date = date_1+37
   
   #======================================================================================================
   #======================================================================================================
@@ -231,6 +231,17 @@ for (date_1 in jhu_dataset_date$date){
   variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-31,]
   variants_date[is.na(variants_date)] <- 0
   if (length(variants_date$Date) == 0) {
+    #variants_date <- data.frame(matrix(ncol = 8, nrow = 1))
+    #x <- colnames(variants_dataset)
+    #colnames(variants_date) <- x
+    #variants_date_row = c(date, 0, country_name, 0, 0, 0, 0, 0)
+    #variants_date = rbind(variants_date, variants_date_row)
+    #variants_date = na.omit(variants_date)
+    #variants_date$Alpha = as.numeric(variants_date$Alpha)
+    #variants_date$Beta = as.numeric(variants_date$Beta)
+    #variants_date$Gamma = as.numeric(variants_date$Gamma)
+    #variants_date$Delta = as.numeric(variants_date$Delta)
+    #variants_date$Omicron = as.numeric(variants_date$Omicron)
     variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-32,]
   }
   #variants_date$Alpha = NaN
@@ -485,7 +496,7 @@ for (date_1 in jhu_dataset_date$date){
 }
 
 graphical <- graphical[!duplicated(graphical), ]
-write.csv(graphical,'delhi_india_no_mask_no_vaccine_60.csv')
+write.csv(graphical,'south_africa_no_mask_no_vaccine_30.csv')
 #write.csv(graphical,'france_no_mask_no_vaccine_30.csv')
 
 #==================================================================================================================
