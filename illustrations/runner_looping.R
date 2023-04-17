@@ -4,15 +4,15 @@ library(tidyverse)
 library(zoo)
 
 #==============Define the inputs======================================================================================
-country_name = "South Africa"
+country_name = "India"
 people_passed_outdoor = 10
 people_passed_indoor = 5
 #date = "2022-04-13"
-region = NaN
+region = "Delhi"
 county = NaN #Add NaN in case not applicable 
 mask_type = "No Mask"
 
-type_vaccine_dose = "No Vaccine"#"Moderna (Dose 2)"
+type_vaccine_dose = "Astrazeneca (Dose 2) + Pfizer/Moderna (Booster)"#"Moderna (Dose 2)"
 
 past_covid_infection = "No" #Past infection in past 8 months
 
@@ -176,7 +176,7 @@ jhu_dataset_date <- jhu_dataset_agg
 #jhu_dataset_date <- jhu_dataset_agg[which(jhu_dataset_agg$region==region),]
 
 for (date_1 in jhu_dataset_date$date){
-  date = date_1+37
+  date = date_1+12
   
   #======================================================================================================
   #======================================================================================================
@@ -496,7 +496,7 @@ for (date_1 in jhu_dataset_date$date){
 }
 
 graphical <- graphical[!duplicated(graphical), ]
-write.csv(graphical,'south_africa_no_mask_no_vaccine_30.csv')
+write.csv(graphical,'delhi_india_no_mask_az3_30.csv')
 #write.csv(graphical,'france_no_mask_no_vaccine_30.csv')
 
 #==================================================================================================================

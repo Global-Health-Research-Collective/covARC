@@ -4,25 +4,38 @@ library(curl)
 library(tidyverse)
 library(ggplot2)
 
-df = read.csv('quebec_canada_no_mask_no_vaccine_30.csv', skip=1, header=F)
+df = read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/delhi_india_no_mask_no_vaccine_30.csv', skip=1, header=F)
 df = df[-c(1)]
 colnames(df) <- c('date','fac_aggregate_cases','fac_aggregate_cases_per_pop','cum_risk_factor','cum_risk_factor_u','hosp_risk_lower','hosp_risk_upper','death_risk_lower','death_risk_upper','f_risk')
-df$date = as.Date(df_massachusetts_usa$date,origin = "1970-01-01")
+df$date = as.Date(df$date,origin = "1970-01-01")
+
+#===================================================================================================================================================
+ct_r <- c('Reported active cases (scaled)'='black','Risk of Death (%)'='purple','Risk of Infection (%)'='red','Risk of Hospitalization (%)'='cyan')
+#===================================================================================================================================================
+ggplot(df) + 
+  geom_line(aes(y = fac_aggregate_cases, x=date))+#, fill = "Reported active cases (scaled)")) + 
+  geom_ribbon(aes(ymin = cum_risk_factor, ymax = cum_risk_factor_u, x=date, fill = 'Risk of Infection (%)'), alpha=0.3) + 
+  geom_ribbon(aes(ymin = hosp_risk_lower, ymax = hosp_risk_upper, x=date, fill = "Risk of Hospitalization (%)"), alpha = 0.3)+
+  geom_ribbon(aes(ymin = death_risk_lower, ymax = death_risk_upper, x=date, fill = 'Risk of Death (%)'), alpha = 0.3)+
+  labs(y="Risk Of Infection (%)", x = "Date", colour = "")+
+  theme(axis.text=element_text(size=24),axis.title=element_text(size=24))+
+  scale_fill_manual(values=ct_r, name="", labels = c('Reported active cases (scaled)','Risk of Death (%)','Risk of Hospitalization (%)','Risk of Infection (%)'))+
+  theme(legend.key.size = unit(1.5, 'cm'),legend.title = element_text(size=24), legend.text = element_text(size=24), legend.position = "bottom")
 
 
-df_massachusetts_usa <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_time.csv', skip = 1, header = F)
-df_massachusetts_usa_m1 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_m1.csv', skip = 1, header = F)
-df_massachusetts_usa_m2 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_m2.csv', skip = 1, header = F)
-df_massachusetts_usa_procedure <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_procedure.csv', skip = 1, header = F)
-df_massachusetts_usa_n95 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_30_n95.csv', skip = 1, header = F)
-df_massachusetts_usa_60 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_usa_65_time.csv', skip = 1, header = F)
+df_massachusetts_usa <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_usa_30_time.csv', skip = 1, header = F)
+df_massachusetts_usa_m1 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/franklin_us_no_mask_p2_30.csv', skip = 1, header = F)
+df_massachusetts_usa_m2 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/franklin_us_no_mask_p3_30.csv', skip = 1, header = F)
+df_massachusetts_usa_procedure <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_usa_30_procedure.csv', skip = 1, header = F)
+df_massachusetts_usa_n95 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_usa_30_n95.csv', skip = 1, header = F)
+df_massachusetts_usa_60 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_usa_65_time.csv', skip = 1, header = F)
 
-df_delhi_india <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_delhi_30_time.csv', skip = 1, header = F)
-df_delhi_india_az1 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_delhi_30_az1.csv', skip = 1, header = F)
-df_delhi_india_az2 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_delhi_30_az2.csv', skip = 1, header = F)
-df_delhi_india_procedure <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_delhi_30_procedure.csv', skip = 3, header = F)
-df_delhi_india_n95 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_delhi_30_n95.csv', skip = 5, header = F)
-df_delhi_india_60 <- read.csv('C:/Users/shrey/Downloads/covid/updated_graph_csv/graphical_delhi_65_time.csv', skip = 1, header = F)
+df_delhi_india <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_delhi_30_time.csv', skip = 1, header = F)
+df_delhi_india_az1 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_delhi_30_az1.csv', skip = 1, header = F)
+df_delhi_india_az2 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_delhi_30_az2.csv', skip = 1, header = F)
+df_delhi_india_procedure <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_delhi_30_procedure.csv', skip = 3, header = F)
+df_delhi_india_n95 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_delhi_30_n95.csv', skip = 5, header = F)
+df_delhi_india_60 <- read.csv('C:/Users/shrey/Downloads/Synapsy/covARC/updated_final_csv/graphical_delhi_65_time.csv', skip = 1, header = F)
 
 df_delhi_india <- df_delhi_india[-c(1)]
 df_delhi_india_az1 <- df_delhi_india_az1[-c(1)]
