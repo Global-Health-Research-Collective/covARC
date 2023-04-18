@@ -4,15 +4,15 @@ library(tidyverse)
 library(zoo)
 
 #==============Define the inputs======================================================================================
-country_name = "India"
+country_name = "United States"
 people_passed_outdoor = 10
 people_passed_indoor = 5
 #date = "2022-04-13"
-region = "Delhi"
-county = NaN #Add NaN in case not applicable 
+region = "Massachusetts"
+county = "Franklin" #Add NaN in case not applicable 
 mask_type = "No Mask"
 
-type_vaccine_dose = "Astrazeneca (Dose 2) + Pfizer/Moderna (Booster)"#"Moderna (Dose 2)"
+type_vaccine_dose = "Pfizer (Dose 2) + Moderna (Booster)"#"Moderna (Dose 2)"
 
 past_covid_infection = "No" #Past infection in past 8 months
 
@@ -176,7 +176,7 @@ jhu_dataset_date <- jhu_dataset_agg
 #jhu_dataset_date <- jhu_dataset_agg[which(jhu_dataset_agg$region==region),]
 
 for (date_1 in jhu_dataset_date$date){
-  date = date_1+12
+  date = date_1
   
   #======================================================================================================
   #======================================================================================================
@@ -244,11 +244,11 @@ for (date_1 in jhu_dataset_date$date){
     #variants_date$Omicron = as.numeric(variants_date$Omicron)
     variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-32,]
   }
-  #variants_date$Alpha = NaN
-  #variants_date$Beta = NaN
-  #variants_date$Gamma = NaN
+  variants_date$Alpha = NaN
+  variants_date$Beta = NaN
+  variants_date$Gamma = NaN
   #variants_date$Delta = NaN
-  #variants_date$Omicron = NaN
+  variants_date$Omicron = NaN
   #variants_date <- variants_date[-c(2)]
   
   #===============Alpha Variant===========================================
@@ -496,7 +496,7 @@ for (date_1 in jhu_dataset_date$date){
 }
 
 graphical <- graphical[!duplicated(graphical), ]
-write.csv(graphical,'delhi_india_no_mask_az3_30.csv')
+write.csv(graphical,'franklin_us_no_mask_30_omicron_p3.csv')
 #write.csv(graphical,'france_no_mask_no_vaccine_30.csv')
 
 #==================================================================================================================
