@@ -12,7 +12,7 @@ region = "Massachusetts"
 county = "Franklin" #Add NaN in case not applicable 
 mask_type = "No Mask"
 
-type_vaccine_dose = "Pfizer (Dose 2) + Moderna (Booster)"#"Moderna (Dose 2)"
+type_vaccine_dose = "Pfizer (Dose 1)"#"Moderna (Dose 2)"
 
 past_covid_infection = "No" #Past infection in past 8 months
 
@@ -246,8 +246,8 @@ for (date_1 in jhu_dataset_date$date){
   }
   variants_date$Alpha = NaN
   variants_date$Beta = NaN
-  variants_date$Gamma = NaN
-  #variants_date$Delta = NaN
+  #variants_date$Gamma = NaN
+  variants_date$Delta = NaN
   variants_date$Omicron = NaN
   #variants_date <- variants_date[-c(2)]
   
@@ -496,7 +496,7 @@ for (date_1 in jhu_dataset_date$date){
 }
 
 graphical <- graphical[!duplicated(graphical), ]
-write.csv(graphical,'franklin_us_no_mask_30_omicron_p3.csv')
+write.csv(graphical,'franklin_us_no_mask_30_gamma_p1.csv')
 #write.csv(graphical,'france_no_mask_no_vaccine_30.csv')
 
 #==================================================================================================================
