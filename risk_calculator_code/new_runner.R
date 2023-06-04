@@ -4,10 +4,10 @@ library(tidyverse)
 library(zoo)
 
 #==============Define the inputs======================================================================================
-country_name ="South Africa"
+country_name ="Switzerland"
 people_passed_outdoor = 10
 people_passed_indoor = 5
-date = "2022-02-02"
+date = "2023-05-31"
 region = NaN
 county = NaN #Add NaN in case not applicable 
 mask_type = "No Mask"
@@ -22,36 +22,46 @@ chronic_illness = "No" #Diabetes, Heart Disease, Cancer, Lung disease, High Bloo
 
 #Suggestive evidence: Qian et al. study of cases in China, Jimenez's Aerosol Transmission Model, lack of surge from BLM protests, anecdotal CO2 data from protests, zero outdoor outbreaks of any kind, many indoor dining outbreaks, despite both indoor and outdoor dining being open in the US
 #=====================================================================================================================
-if (country_name=="United States") {
+#if (country_name=="United States") {
   
-  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/filtered/US/",region),".csv"))
-  jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
-  jhu_dataset <- jhu_dataset[jhu_dataset$Admin2!="",]
-  jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y-%m-%d")
-  colnames(jhu_dataset) <- c("city","region","country","Lat","Lon","Confirmed","Deaths","date","time")
-  summary(jhu_dataset)
+  #jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/filtered_new/US/",region),".csv"))
+#  jhu_dataset <- read.csv("https://raw.githubusercontent.com/Global-Health-Research-Collective/covARC/main/new_filtered/US.csv")
+#  jhu_dataset[is.na(jhu_dataset$total_cases),] <- 0
+#  jhu_dataset[is.na(jhu_dataset$total_deaths),] <- 0
+#  jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
+  #jhu_dataset <- jhu_dataset[jhu_dataset$Admin2!="",]
+#  jhu_dataset$date<-as.Date(jhu_dataset$date,format="%Y-%m-%d")
+#  #colnames(jhu_dataset) <- c("city","region","country","Lat","Lon","Confirmed","Deaths","date","time")
+#  #colnames(jhu_dataset)<-c("iso_code", "continent", "location", "date", "total_cases", "new_cases", "total_death","new_death")
+#  summary(jhu_dataset)
 
-} else {
-  jhu_dataset <- read.csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/filtered/",country_name),".csv"))
-  jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
-  jhu_dataset$Date<-as.Date(as.character(jhu_dataset$Date),format="%Y-%m-%d")
-  colnames(jhu_dataset) <- c("region","country","Lat","Lon","Confirmed","Deaths","date","time")
-}  
+#} else {
+jhu_dataset <- read.csv(paste0(paste0("https://raw.githubusercontent.com/Global-Health-Research-Collective/covARC/main/new_filtered/",country_name),".csv"))
+jhu_dataset[is.na(jhu_dataset$total_cases),] <- 0
+jhu_dataset[is.na(jhu_dataset$total_deaths),] <- 0
+jhu_dataset <- jhu_dataset %>% mutate_if(is.character,as.factor)
+jhu_dataset$date<-as.Date(jhu_dataset$date,format="%Y-%m-%d")
+#colnames(jhu_dataset)<-c("iso_code", "continent", "location", "date", "total_cases", "new_cases", "total_death","new_death")
+#colnames(jhu_dataset) <- c("region","country","Lat","Lon","Confirmed","Deaths","date","time")
+#}
 
-if(country_name=="Canada"){
+jhu_dataset <- jhu_dataset[!is.na(jhu_dataset$date),]
+colnames(jhu_dataset) <- c("iso_code", "continent", "location", "Date", "Confirmed", "new_cases", "Deaths","new_death")
+
+#if(country_name=="Canada"){
   #==============Functions to Remove some common errors in JHU=================
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Unknown",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Unknown",]
   #======Functions to scrape out Canada JHU Dataset============================
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Recovered",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Diamond Princess",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Grand Princess",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Repatriated Travellers",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Recovered",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Diamond Princess",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Grand Princess",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Repatriated Travellers",]
   
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Montreal, QC",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Calgary, Alberta",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Edmonton, Alberta",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="Toronto, ON",]
-  jhu_dataset <- jhu_dataset[jhu_dataset$region!="London, ON",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Montreal, QC",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Calgary, Alberta",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Edmonton, Alberta",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="Toronto, ON",]
+  #jhu_dataset <- jhu_dataset[jhu_dataset$region!="London, ON",]
   
   #jhu_dataset$region[jhu_dataset$region=="Montreal, QC"] <- "Quebec"
   #jhu_dataset$region[jhu_dataset$region=="Calgary, Alberta"] = "Alberta"
@@ -59,7 +69,7 @@ if(country_name=="Canada"){
   #jhu_dataset$region[jhu_dataset$region=="Toronto, ON"] = "Ontario"
   #jhu_dataset$region[jhu_dataset$region=="London, ON"] = "Ontario"
   #=============================================================================
-}
+#}
 
 ratio_dataset <- read.csv("C:/Users/shrey/Downloads/Synapsy/covARC/data/Ratios_Survey.csv")
 #ratio_dataset <- read.csv(curl("https://raw.githubusercontent.com/Volunteer-Collab/risk_calculator/main/Risk_calculator/risk_calculator_simple/custom_dataset/Ratios_Survey.csv?token=ACZDUYD4JVF3ZIVRPC3ZV5LBBP7RW"))
@@ -94,115 +104,122 @@ if(country_name=="United States"){
 #======================================================================================================
 #======================================================================================================
 
-if(country_name=="United States"){
-  if(!is.na(county)){
-    jhu_dataset<-jhu_dataset %>%
-      group_by(city) %>%
-      mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::group_by(city) %>%
-      dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))
+#if(country_name=="United States"){
+#  if(!is.na(county)){
+#    jhu_dataset<-jhu_dataset %>%
+#      group_by(city) %>%
+#      mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
+#    jhu_dataset <- jhu_dataset %>%
+#      dplyr::group_by(city) %>%
+#      dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))
     
-  }else{
-    jhu_dataset<-jhu_dataset %>%    
-      mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))
-    }
-}else{
-  if(!is.na(region)){
-  jhu_dataset<-jhu_dataset %>%
-    group_by(region) %>%
-    mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
-  jhu_dataset <- jhu_dataset %>%
-    dplyr::group_by(region) %>%
-    dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))
+#  }else{
+#    jhu_dataset<-jhu_dataset %>%    
+#      mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
+#    jhu_dataset <- jhu_dataset %>%
+#      dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))
+#   }
+#}else{
+#  if(!is.na(region)){
+#  jhu_dataset<-jhu_dataset %>%
+#    group_by(region) %>%
+#    mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
+#  jhu_dataset <- jhu_dataset %>%
+#    dplyr::group_by(region) %>%
+#    dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))
     
-  }else{
-    jhu_dataset<-jhu_dataset %>%    
-      mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))  
-  }
-}
+#  }else{
+jhu_dataset<-jhu_dataset %>%    
+  mutate(NewCases = Confirmed - lag(Confirmed, default = first(Confirmed)))
+jhu_dataset <- jhu_dataset %>%
+  dplyr::mutate(fourteen_day_agg = rollapply(NewCases, 14, sum, align="right", fill= NA))  
+#  }
+#}
 #===============================================================================================
-if(country_name=="United States"){
-  if(!is.na(county)){
-    jhu_dataset<-jhu_dataset %>%
-      group_by(city) %>%
-      mutate(NewCases_u = Confirmed_u - lag(Confirmed_u, default = first(Confirmed_u)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::group_by(city) %>%
-      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))
+#if(country_name=="United States"){
+#  if(!is.na(county)){
+#    jhu_dataset<-jhu_dataset %>%
+#      group_by(city) %>%
+#      mutate(NewCases_u = Confirmed_u - lag(Confirmed_u, default = first(Confirmed_u)))
+#    jhu_dataset <- jhu_dataset %>%
+#      dplyr::group_by(city) %>%
+#      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))
     
-  }else{
-    jhu_dataset<-jhu_dataset %>%    
-      mutate(NewCases_u = Confirmed_u - lag(Confirmed, default = first(Confirmed)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))  
-  }
-}else{
-  if(!is.na(region)){
-    jhu_dataset<-jhu_dataset %>%
-      group_by(region) %>%
-      mutate(NewCases_u = Confirmed_u - lag(Confirmed_u, default = first(Confirmed_u)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::group_by(region) %>%
-      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))
+#  }else{
+#    jhu_dataset<-jhu_dataset %>%    
+#      mutate(NewCases_u = Confirmed_u - lag(Confirmed, default = first(Confirmed)))
+#    jhu_dataset <- jhu_dataset %>%
+#      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))  
+#  }
+#}else{
+#  if(!is.na(region)){
+#    jhu_dataset<-jhu_dataset %>%
+#      group_by(region) %>%
+#      mutate(NewCases_u = Confirmed_u - lag(Confirmed_u, default = first(Confirmed_u)))
+#    jhu_dataset <- jhu_dataset %>%
+#      dplyr::group_by(region) %>%
+#      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))
     
-  }else{
-    jhu_dataset<-jhu_dataset %>%    
-      mutate(NewCases_u = Confirmed_u - lag(Confirmed, default = first(Confirmed)))
-    jhu_dataset <- jhu_dataset %>%
-      dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))  
-  }
-}
+#  }else{
+jhu_dataset<-jhu_dataset %>%    
+  mutate(NewCases_u = Confirmed_u - lag(Confirmed, default = first(Confirmed)))
+jhu_dataset <- jhu_dataset %>%
+  dplyr::mutate(fourteen_day_agg_u = rollapply(NewCases_u, 14, sum, align="right", fill= NA))  
+#  }
+#}
 #======================================================================================================
 #======================================================================================================
 jhu_dataset_agg <- jhu_dataset[!is.na(jhu_dataset$fourteen_day_agg),]
 jhu_dataset_agg <- jhu_dataset_agg %>% mutate_if(is.character,as.factor)
-if(!is.na(county)){
-  jhu_dataset_agg$city <- as.factor(jhu_dataset_agg$city)
-}
+#if(!is.na(county)){
+#  jhu_dataset_agg$city <- as.factor(jhu_dataset_agg$city)
+#}
 #======================================================================================================
 jhu_dataset_agg_u <- jhu_dataset[!is.na(jhu_dataset$fourteen_day_agg_u),]
 jhu_dataset_agg_u <- jhu_dataset_agg_u %>% mutate_if(is.character,as.factor)
-if(!is.na(county)){
-  jhu_dataset_agg_u$city <- as.factor(jhu_dataset_agg_u$city)
-}
+#if(!is.na(county)){
+#  jhu_dataset_agg_u$city <- as.factor(jhu_dataset_agg_u$city)
+#}
 #======================================================================================================
 #======================================================================================================
-if(country_name=="United States"){
-  if(!is.na(county)){
-    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[which(jhu_dataset_agg$city==county & as.Date(jhu_dataset_agg$date)==as.Date(date))]
-  }else{
-    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[as.Date(jhu_dataset_agg$date)==as.Date(date)]
-  }
-}else{
-  if(!is.na(region)){
-    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[which(jhu_dataset_agg$region==region & as.Date(jhu_dataset_agg$date)==as.Date(date))]
-  }else{
-    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[as.Date(jhu_dataset_agg$date)==as.Date(date)]
-  }
-}
+#if(country_name=="United States"){
+#  if(!is.na(county)){
+#    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[which(jhu_dataset_agg$city==county & as.Date(jhu_dataset_agg$date)==as.Date(date))]
+#  }else{
+#    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[as.Date(jhu_dataset_agg$date)==as.Date(date)]
+#  }
+#}else{
+#  if(!is.na(region)){
+#    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[which(jhu_dataset_agg$region==region & as.Date(jhu_dataset_agg$date)==as.Date(date))]
+#  }else{
+#    fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[as.Date(jhu_dataset_agg$date)==as.Date(date)]
+#  }
+#}
+fac_aggregate_cases <- jhu_dataset_agg$fourteen_day_agg[as.Date(jhu_dataset_agg$Date)==as.Date(date)]
 #======================================================================================================
-if(country_name=="United States"){
-  if(!is.na(region)){
-    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[which(jhu_dataset_agg_u$city==county & as.Date(jhu_dataset_agg_u$date)==as.Date(date))]
-  }else{
-    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[as.Date(jhu_dataset_agg_u$date)==as.Date(date)]
-  }
-}else{
-  if(!is.na(region)){
-    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[which(jhu_dataset_agg_u$region==region & as.Date(jhu_dataset_agg_u$date)==as.Date(date))]
-  }else{
-    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[as.Date(jhu_dataset_agg_u$date)==as.Date(date)]
-  }
-}
+#if(country_name=="United States"){
+#  if(!is.na(region)){
+#    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[which(jhu_dataset_agg_u$city==county & as.Date(jhu_dataset_agg_u$date)==as.Date(date))]
+#  }else{
+#    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[as.Date(jhu_dataset_agg_u$date)==as.Date(date)]
+#  }
+#}else{
+#  if(!is.na(region)){
+#    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[which(jhu_dataset_agg_u$region==region & as.Date(jhu_dataset_agg_u$date)==as.Date(date))]
+#  }else{
+#    fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[as.Date(jhu_dataset_agg_u$date)==as.Date(date)]
+#  }
+#}
+fac_aggregate_cases_u <- jhu_dataset_agg$fourteen_day_agg_u[as.Date(jhu_dataset_agg_u$Date)==as.Date(date)]
 #======================================================================================================
 #======================================================================================================
 fac_aggregate_cases_per_pop <- fac_aggregate_cases/pop_var 
 fac_aggregate_cases_per_pop_u <- fac_aggregate_cases_u/pop_var 
+
+if(fac_aggregate_cases_per_pop_u<0){
+  fac_aggregate_cases_per_pop_u = fac_aggregate_cases_per_pop
+}
+
 #======================================================================================================
 #======================================================================================================
 
@@ -217,11 +234,27 @@ vaccine_eff[is.na(vaccine_eff)] <- 0
 vaccine_eff$vaccine <- as.factor(vaccine_eff$vaccine)
 
 #================data pulling script======================== 
-variants_dataset <- read_csv(paste0(paste0("C:/Users/shrey/Downloads/Synapsy/covARC/data/Country/processed/",country_name),".csv"))
+variants_dataset <- read_csv(paste0(paste0("https://raw.githubusercontent.com/Global-Health-Research-Collective/covARC/main/data/Country/processed/",country_name),".csv"),show_col_types = FALSE)
 variants_dataset$Date <- as.Date(variants_dataset$Date)
 #variants_dataset <- variants_dataset[-c(2,3)]
 variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-31,]
 variants_date[is.na(variants_date)] <- 0
+
+if (length(variants_date$Date) == 0) {
+  variants_date <- data.frame(matrix(ncol = 8, nrow = 1))
+  x <- colnames(variants_dataset)
+  colnames(variants_date) <- x
+  variants_date_row = c(date, 0, country_name, 0, 0, 0, 0, 0)
+  variants_date = rbind(variants_date, variants_date_row)
+  variants_date$Alpha <- as.numeric(variants_date$Alpha)
+  variants_date$Beta <- as.numeric(variants_date$Beta)
+  variants_date$Gamma <- as.numeric(variants_date$Gamma)
+  variants_date$Delta <- as.numeric(variants_date$Delta)
+  variants_date$Omicron <- as.numeric(variants_date$Omicron)
+  variants_date$Date <- as.Date(variants_date$Date)
+  variants_date = na.omit(variants_date)
+  #variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-32,]
+}
 #variants_date <- variants_date[-c(2)]
 
 #===============Alpha Variant===========================================
