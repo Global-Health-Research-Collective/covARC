@@ -231,18 +231,18 @@ for (date_1 in jhu_dataset_date$date){
   variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-31,]
   variants_date[is.na(variants_date)] <- 0
   if (length(variants_date$Date) == 0) {
-    #variants_date <- data.frame(matrix(ncol = 8, nrow = 1))
-    #x <- colnames(variants_dataset)
-    #colnames(variants_date) <- x
-    #variants_date_row = c(date, 0, country_name, 0, 0, 0, 0, 0)
-    #variants_date = rbind(variants_date, variants_date_row)
+    variants_date <- data.frame(matrix(ncol = 8, nrow = 1))
+    x <- colnames(variants_dataset)
+    colnames(variants_date) <- x
+    variants_date_row = c(date, 0, country_name, 0, 0, 0, 0, 0)
+    variants_date = rbind(variants_date, variants_date_row)
     #variants_date = na.omit(variants_date)
     #variants_date$Alpha = as.numeric(variants_date$Alpha)
     #variants_date$Beta = as.numeric(variants_date$Beta)
     #variants_date$Gamma = as.numeric(variants_date$Gamma)
     #variants_date$Delta = as.numeric(variants_date$Delta)
     #variants_date$Omicron = as.numeric(variants_date$Omicron)
-    variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-32,]
+    #variants_date = variants_dataset[variants_dataset$Date==as.Date(date)-32,]
   }
   variants_date$Alpha = NaN
   variants_date$Beta = NaN

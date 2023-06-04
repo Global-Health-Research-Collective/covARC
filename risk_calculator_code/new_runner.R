@@ -84,22 +84,22 @@ population_full <- population_full[!is.na(population_full$Population),]
 population_full <- population_full %>% mutate_if(is.character,as.factor)
 population_full$Country_Region <- gsub("US", "United States", population_full$Country_Region)
 
-if(country_name=="United States"){
-  if(!is.na(county)){
-    pop_var <- population_full$Population[population_full$Province_State==region & population_full$Country_Region==country_name & population_full$Admin2==county]
-    pop_var <- pop_var[1]
-  }else{
-    pop_var<-population_full$Population[population_full$Province_State==region]
-  }
+#if(country_name=="United States"){
+#  if(!is.na(county)){
+#    pop_var <- population_full$Population[population_full$Province_State==region & population_full$Country_Region==country_name & population_full$Admin2==county]
+#    pop_var <- pop_var[1]
+#  }else{
+#    pop_var<-population_full$Population[population_full$Province_State==region]
+#  }
   
-}else{
-  if(!is.na(region)){
-    pop_var <- population_full$Population[population_full$Province_State==region & population_full$Country_Region==country_name]
-    pop_var <- pop_var[1]
-  }else{
-    pop_var<-population_full$Population[population_full$Country_Region==country_name]
-  }
-}
+#}else{
+#  if(!is.na(region)){
+#    pop_var <- population_full$Population[population_full$Province_State==region & population_full$Country_Region==country_name]
+#    pop_var <- pop_var[1]
+#  }else{
+pop_var<-population_full$Population[population_full$Country_Region==country_name]
+#  }
+#}
 
 #======================================================================================================
 #======================================================================================================

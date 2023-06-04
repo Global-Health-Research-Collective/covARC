@@ -122,7 +122,7 @@ p2_A<-plot_fun(franklin_usa_30_no_vaccine_surgical_mask_fixed,"Franklin, MA, USA
 
 p2_B<-plot_fun(franklin_usa_30_no_vaccine_n95_fixed,"Franklin, MA, USA (N95 Respirator)",font_size,min_y,max_y) 
 
-p2<-ggarrange(p2_A, p2_B, ncol = 2, common.legend=T,legend='bottom',labels="AUTO")
+p2<-ggarrange(p1_A, p1_B, p2_A, p2_B, ncol = 2, nrow=2, common.legend=T,legend='bottom',labels="AUTO")
 
 p2
 
@@ -151,7 +151,7 @@ p3_B<-plot_fun(franklin_us_no_mask_p2_30,"Franklin, MA, USA (PF Dose 2)",font_si
 
 p3_c<-plot_fun(franklin_us_no_mask_p3_30,"Franklin, MA, USA (PF Dose 2) + Booster",font_size,min_y,max_y)# +theme(plot.title = element_text(size = 13))
 
-p3<-ggarrange(p3_A, p3_B,p3_c, ncol = 3, common.legend=T,legend='bottom',labels="AUTO")
+p3<-ggarrange(p3_A, p3_B,p3_c, ncol = 3, common.legend=T,legend='bottom',labels=c("E","F","G"))
 
 p3
 
@@ -256,7 +256,7 @@ p8_A<-plot_fun(delhi_india_surgical_no_vaccine_30,"Delhi, India (Surgical Mask)"
 
 p8_B<-plot_fun(delhi_india_n95_no_vaccine_30,"Delhi, India (N95 Respirator)",font_size,min_y,max_y) 
 
-p8<-ggarrange(p8_A, p8_B, ncol = 2, common.legend=T,legend='bottom',labels="AUTO")
+p8<-ggarrange(p7_A, p7_B, p8_A, p8_B, ncol = 2, nrow=2, common.legend=T,legend='bottom',labels="AUTO")
 p8
 
 sve_fun(p8_A,'p8_A','A')
@@ -294,7 +294,7 @@ p9_c<-plot_fun(delhi_india_no_mask_az3_30,"Delhi, India (AZ Dose 2 + Booster)",f
 
  
 
-p9<-ggarrange(p9_A, p9_B,p9_c,ncol = 3, common.legend=T,legend='bottom',labels="AUTO")
+p9<-ggarrange(p9_A, p9_B,p9_c,ncol = 3, common.legend=T,legend='bottom',labels=c("E","F","G"))
 p9
 
 
@@ -512,13 +512,13 @@ sve_fun(p14_B,'p14_D','D')
 
 setwd("C:/Users/shrey/Downloads")
 ggsave("p1.pdf", p1, width = 20, height = 6, units = "in")
-ggsave("p2.pdf", p2, width = 20, height = 6, units = "in")
+ggsave("p2.pdf", p2, width = 20, height = 10, units = "in")
 ggsave("p3.pdf", p3, width = 20, height = 6, units = "in")
 ggsave("p4.pdf", p4, width = 20, height = 6, units = "in")
 ggsave("p5.pdf", p5, width = 20, height = 6, units = "in")
 ggsave("p6.pdf", p6, width = 20, height = 6, units = "in")
 ggsave("p7.pdf", p7, width = 20, height = 6, units = "in")
-ggsave("p8.pdf", p8, width = 20, height = 6, units = "in")
+ggsave("p8.pdf", p8, width = 20, height = 10, units = "in")
 ggsave("p9.pdf", p9, width = 20, height = 6, units = "in")
 ggsave("p10.pdf", p10, width = 20, height = 6, units = "in")
 ggsave("p11.pdf", p11, width = 20, height = 6, units = "in")
