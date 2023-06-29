@@ -1103,8 +1103,8 @@ COK,Oceania,Cook Islands,2023-01-07,6844.0,25.0,1.0,0.0
 COK,Oceania,Cook Islands,2023-01-08,6844.0,0.0,1.0,0.0
 COK,Oceania,Cook Islands,2023-01-09,6862.0,18.0,1.0,0.0
 COK,Oceania,Cook Islands,2023-01-10,6886.0,24.0,1.0,0.0
-COK,Oceania,Cook Islands,2023-01-11,6915.0,29.0,1.0,0.0
-COK,Oceania,Cook Islands,2023-01-12,6926.0,11.0,2.0,1.0
+COK,Oceania,Cook Islands,2023-01-11,6915.0,29.0,2.0,1.0
+COK,Oceania,Cook Islands,2023-01-12,6926.0,11.0,2.0,0.0
 COK,Oceania,Cook Islands,2023-01-13,6952.0,26.0,2.0,0.0
 COK,Oceania,Cook Islands,2023-01-14,6952.0,0.0,2.0,0.0
 COK,Oceania,Cook Islands,2023-01-15,6952.0,0.0,2.0,0.0
@@ -1265,3 +1265,10 @@ COK,Oceania,Cook Islands,2023-06-18,7142.0,0.0,2.0,0.0
 COK,Oceania,Cook Islands,2023-06-19,7142.0,0.0,2.0,0.0
 COK,Oceania,Cook Islands,2023-06-20,7142.0,0.0,2.0,0.0
 COK,Oceania,Cook Islands,2023-06-21,7142.0,0.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-22,7143.0,1.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-23,7143.0,0.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-24,7143.0,0.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-25,7143.0,0.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-26,7144.0,1.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-27,7144.0,0.0,2.0,0.0
+COK,Oceania,Cook Islands,2023-06-28,7144.0,0.0,2.0,0.0
