@@ -51,8 +51,8 @@ CHE,Europe,Switzerland,2020-02-20,,0.0,,0.0
 CHE,Europe,Switzerland,2020-02-21,,0.0,,0.0
 CHE,Europe,Switzerland,2020-02-22,,0.0,,0.0
 CHE,Europe,Switzerland,2020-02-23,,0.0,,0.0
-CHE,Europe,Switzerland,2020-02-24,1.0,1.0,,0.0
-CHE,Europe,Switzerland,2020-02-25,1.0,0.0,,0.0
+CHE,Europe,Switzerland,2020-02-24,,0.0,,0.0
+CHE,Europe,Switzerland,2020-02-25,1.0,1.0,,0.0
 CHE,Europe,Switzerland,2020-02-26,2.0,1.0,,0.0
 CHE,Europe,Switzerland,2020-02-27,12.0,10.0,,0.0
 CHE,Europe,Switzerland,2020-02-28,22.0,10.0,,0.0
@@ -1276,6 +1276,13 @@ CHE,Europe,Switzerland,2023-06-29,4406991.0,0.0,14024.0,0.0
 CHE,Europe,Switzerland,2023-06-30,4406991.0,0.0,14024.0,0.0
 CHE,Europe,Switzerland,2023-07-01,4406991.0,0.0,14024.0,0.0
 CHE,Europe,Switzerland,2023-07-02,4406991.0,0.0,14024.0,0.0
-CHE,Europe,Switzerland,2023-07-03,4406991.0,0.0,14024.0,0.0
-CHE,Europe,Switzerland,2023-07-04,4406991.0,0.0,14024.0,0.0
-CHE,Europe,Switzerland,2023-07-05,4406991.0,0.0,14024.0,0.0
+CHE,Europe,Switzerland,2023-07-03,4407106.0,115.0,14025.0,1.0
+CHE,Europe,Switzerland,2023-07-04,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-05,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-06,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-07,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-08,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-09,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-10,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-11,4407106.0,0.0,14025.0,0.0
+CHE,Europe,Switzerland,2023-07-12,4407106.0,0.0,14025.0,0.0

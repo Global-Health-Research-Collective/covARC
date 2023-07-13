@@ -53,9 +53,9 @@ AUT,Europe,Austria,2020-02-22,,0.0,,0.0
 AUT,Europe,Austria,2020-02-23,,0.0,,0.0
 AUT,Europe,Austria,2020-02-24,,0.0,,0.0
 AUT,Europe,Austria,2020-02-25,,0.0,,0.0
-AUT,Europe,Austria,2020-02-26,1.0,1.0,,0.0
-AUT,Europe,Austria,2020-02-27,1.0,0.0,,0.0
-AUT,Europe,Austria,2020-02-28,1.0,0.0,,0.0
+AUT,Europe,Austria,2020-02-26,,0.0,,0.0
+AUT,Europe,Austria,2020-02-27,,0.0,,0.0
+AUT,Europe,Austria,2020-02-28,1.0,1.0,,0.0
 AUT,Europe,Austria,2020-02-29,3.0,2.0,,0.0
 AUT,Europe,Austria,2020-03-01,7.0,4.0,,0.0
 AUT,Europe,Austria,2020-03-02,8.0,1.0,,0.0
@@ -1279,3 +1279,10 @@ AUT,Europe,Austria,2023-07-02,6081287.0,0.0,22534.0,0.0
 AUT,Europe,Austria,2023-07-03,6081287.0,0.0,22534.0,0.0
 AUT,Europe,Austria,2023-07-04,6081287.0,0.0,22534.0,0.0
 AUT,Europe,Austria,2023-07-05,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-06,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-07,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-08,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-09,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-10,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-11,6081287.0,0.0,22534.0,0.0
+AUT,Europe,Austria,2023-07-12,6081287.0,0.0,22534.0,0.0
