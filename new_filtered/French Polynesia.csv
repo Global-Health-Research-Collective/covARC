@@ -1243,8 +1243,8 @@ PYF,Oceania,French Polynesia,2023-05-27,78581.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-05-28,78581.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-05-29,78590.0,9.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-05-30,78590.0,0.0,649.0,0.0
-PYF,Oceania,French Polynesia,2023-05-31,78590.0,0.0,649.0,0.0
-PYF,Oceania,French Polynesia,2023-06-01,78590.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-05-31,78690.0,100.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-06-01,78590.0,,649.0,0.0
 PYF,Oceania,French Polynesia,2023-06-02,78590.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-06-03,78590.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-06-04,78590.0,0.0,649.0,0.0
@@ -1319,5 +1319,12 @@ PYF,Oceania,French Polynesia,2023-08-11,78619.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-08-12,78619.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-08-13,78619.0,0.0,649.0,0.0
 PYF,Oceania,French Polynesia,2023-08-14,78619.0,0.0,649.0,0.0
-PYF,Oceania,French Polynesia,2023-08-15,78619.0,0.0,649.0,0.0
-PYF,Oceania,French Polynesia,2023-08-16,78619.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-15,78621.0,2.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-16,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-17,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-18,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-19,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-20,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-21,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-22,78621.0,0.0,649.0,0.0
+PYF,Oceania,French Polynesia,2023-08-23,78621.0,0.0,649.0,0.0
