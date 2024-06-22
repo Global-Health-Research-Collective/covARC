@@ -1610,13 +1610,13 @@ BGR,Europe,Bulgaria,2024-05-30,1329329.0,0.0,38700.0,0.0
 BGR,Europe,Bulgaria,2024-05-31,1329329.0,0.0,38700.0,0.0
 BGR,Europe,Bulgaria,2024-06-01,1329329.0,0.0,38700.0,0.0
 BGR,Europe,Bulgaria,2024-06-02,1329356.0,27.0,38700.0,0.0
-BGR,Europe,Bulgaria,2024-06-03,,,,
-BGR,Europe,Bulgaria,2024-06-04,,,,
-BGR,Europe,Bulgaria,2024-06-05,,,,
-BGR,Europe,Bulgaria,2024-06-06,,,,
-BGR,Europe,Bulgaria,2024-06-07,,,,
-BGR,Europe,Bulgaria,2024-06-08,,,,
-BGR,Europe,Bulgaria,2024-06-09,,,,
+BGR,Europe,Bulgaria,2024-06-03,1329356.0,0.0,38700.0,0.0
+BGR,Europe,Bulgaria,2024-06-04,1329356.0,0.0,38700.0,0.0
+BGR,Europe,Bulgaria,2024-06-05,1329356.0,0.0,38700.0,0.0
+BGR,Europe,Bulgaria,2024-06-06,1329356.0,0.0,38700.0,0.0
+BGR,Europe,Bulgaria,2024-06-07,1329356.0,0.0,38700.0,0.0
+BGR,Europe,Bulgaria,2024-06-08,1329356.0,0.0,38700.0,0.0
+BGR,Europe,Bulgaria,2024-06-09,1329381.0,25.0,38700.0,0.0
 BGR,Europe,Bulgaria,2024-06-10,,,,
 BGR,Europe,Bulgaria,2024-06-11,,,,
 BGR,Europe,Bulgaria,2024-06-12,,,,
@@ -1626,3 +1626,5 @@ BGR,Europe,Bulgaria,2024-06-15,,,,
 BGR,Europe,Bulgaria,2024-06-16,,,,
 BGR,Europe,Bulgaria,2024-06-17,,,,
 BGR,Europe,Bulgaria,2024-06-18,,,,
+BGR,Europe,Bulgaria,2024-06-19,,,,
+BGR,Europe,Bulgaria,2024-06-20,,,,
