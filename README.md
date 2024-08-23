@@ -1,6 +1,6 @@
 # COVID-19 Activity Risk Calculator (CovARC)
 
-CovARC or COVID-19 Activity Risk Calculator is a [web application](https://realsciencecommunity.shinyapps.io/riskcalculator/) developed unde the [Global health Research Collective](https://globalhealthresearchcollective.org/) that aims to develop a system that can by used by the general public for estimating an individual's risk of infection, hospitalization and death when carrying out a day to day activity [[Paper](https://www.researchsquare.com/article/rs-2372205/v1)].
+CovARC or COVID-19 Activity Risk Calculator is a [web application](https://realsciencecommunity.shinyapps.io/riskcalculator/) developed unde the [Global health Research Collective](https://globalhealthresearchcollective.org/) that aims to develop a system that can by used by the general public for estimating an individual's risk of infection, hospitalization and death when carrying out a day to day activity. [Nature Scientific Reports Paper](https://www.nature.com/articles/s41598-023-40338-8).
 
 CovARC extracts the data regularly from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and [GISAID variants](https://gisaid.org/hcov19-variants/) through GitHub Actions and pre-processed them to store in this repository. The data is then utillized by the risk calculator shinyapps web application to calculate individual risk. 
 
@@ -30,17 +30,28 @@ Using this we calculate the risk increase due to rise in number of COVID cases o
 
 ![alt text](https://github.com/Global-Health-Research-Collective/covARC/blob/main/illustrations/wireframe_page-0001.jpg)
 
-## Citation
+## Citation (Bibtex Format)
 ```
-@misc{Natraj_2022,
-doi = {10.48550/ARXIV.2212.05035},
-url = {https://arxiv.org/abs/2212.05035},
-author = {Natraj, Shreyasvi and Bhide, Malhar and Yap, Nathan and Liu, Meng and Seth, Agrima and Berman, Jonathan and Glorioso, Christin},
-keywords = {Computers and Society (cs.CY), Information Retrieval (cs.IR), Numerical Analysis (math.NA), Methodology (stat.ME), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
-title = {COVID-19 Activity Risk Calculator as a Gamified Public Health Intervention Tool},
-publisher = {arXiv},
-year = {2022},
-copyright = {arXiv.org perpetual, non-exclusive license}
+﻿@Article{Natraj2023,
+author={Natraj, Shreyasvi
+and Bhide, Malhar
+and Yap, Nathan
+and Liu, Meng
+and Seth, Agrima
+and Berman, Jonathan
+and Glorioso, Christin},
+title={COVID-19 activity risk calculator as a gamified public health intervention tool},
+journal={Scientific Reports},
+year={2023},
+month={Aug},
+day={11},
+volume={13},
+number={1},
+pages={13056},
+abstract={The Coronavirus disease 2019 (COVID-19) pandemic, caused by the virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), has impacted over 200 countries leading to hospitalizations and deaths of millions of people. Public health interventions, such as risk estimators, can reduce the spread of pandemics and epidemics through influencing behavior, which impacts risk of exposure and infection. Current publicly available COVID-19 risk estimation tools have had variable effectiveness during the pandemic due to their dependency on rapidly evolving factors such as community transmission levels and variants. There has also been confusion surrounding certain personal protective strategies such as risk reduction by mask-wearing and vaccination. In order to create a simple easy-to-use tool for estimating different individual risks associated with carrying out daily-life activity, we developed COVID-19 Activity Risk Calculator (CovARC). CovARC is a gamified public health intervention as users can ''play with'' how different risks associated with COVID-19 can change depending on several different factors when carrying out routine daily activities. Empowering the public to make informed, data-driven decisions about safely engaging in activities may help to reduce COVID-19 levels in the community. In this study, we demonstrate a streamlined, scalable and accurate COVID-19 risk calculation system. Our study also demonstrates the quantitative impact of vaccination and mask-wearing during periods of high case counts. Validation of this impact could inform and support policy decisions regarding case thresholds for mask mandates, and other public health interventions.},
+issn={2045-2322},
+doi={10.1038/s41598-023-40338-8},
+url={https://doi.org/10.1038/s41598-023-40338-8}
 }
 ```
 Please feel free to inform us in case of any issues or contact `gloriosoca@gmail.com` or `shreyasvi.natraj@unige.ch`
