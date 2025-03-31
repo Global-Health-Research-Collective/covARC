@@ -1,6 +1,6 @@
 # COVID-19 Activity Risk Calculator (CovARC)
 
-CovARC or COVID-19 Activity Risk Calculator is a [web application](https://realsciencecommunity.shinyapps.io/riskcalculator/) developed unde the [Global health Research Collective](https://globalhealthresearchcollective.org/) that aims to develop a system that can by used by the general public for estimating an individual's risk of infection, hospitalization and death when carrying out a day to day activity. [Nature Scientific Reports Paper](https://www.nature.com/articles/s41598-023-40338-8).
+CovARC or COVID-19 Activity Risk Calculator is a [web application](https://realsciencecommunity.shinyapps.io/riskcalculator/) developed under the [Global health Research Collective](https://globalhealthresearchcollective.org/) that aims to develop a system that can by used by the general public for estimating an individual's risk of infection, hospitalization and death when carrying out a day to day activity. [Nature Scientific Reports Paper](https://www.nature.com/articles/s41598-023-40338-8).
 
 CovARC extracts the data regularly from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and [GISAID variants](https://gisaid.org/hcov19-variants/) through GitHub Actions and pre-processed them to store in this repository. The data is then utillized by the risk calculator shinyapps web application to calculate individual risk. 
 
